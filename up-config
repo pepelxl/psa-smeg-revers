@@ -1,7 +1,7 @@
 
 | Секция | Имя | Тип | Значения |
 | --- | --- | --- | --- |
-| AAS | AAS_Front_Present | BOOL | |
+| AAS | AAS_Front_Present | BOOL | ntcn |
 | AAS | AAS_Rear_Present | BOOL ||
 | AAS | AVR_Brightness | INTEGER ||
 | AAS | AVR_Brightness_ADV | INTEGER ||
