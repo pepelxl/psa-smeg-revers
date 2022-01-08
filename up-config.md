@@ -56,11 +56,9 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | VAN | Display_orientation | BOOL | ориентация дисплея<br>0 - обычный<BR>1 - перевёрнутый|
-| VAN | LVDS_Prehemphasis | BOOL |Скорое всего речь идёт о ошибке написания или французском произношении технологии под названием pre-emphasis. Если вкратце то это -усиление lvds сигнала на концах фронтов импульсов для более вертикальной кривой. Служит для устранения помех при передаче сигнала. На пятом smeg применяется конвертор от процессора на линию MAX9247, после него стоит коммутатор MAX9132. Более подробно про pre emphasis можете прочитать в datasheet на любую из этих микросхем.
-|
-| VAN | LVDS_Prehemphasis_2 | BOOL |Скорое всего речь идёт о ошибке написания или французском произношении технологии под названием pre-emphasis. Если вкратце то это -усиление lvds сигнала на концах фронтов импульсов для более вертикальной кривой. Служит для устранения помех при передаче сигнала. На пятом smeg применяется конвертор от процессора на линию MAX9247, после него стоит коммутатор MAX9132. Более подробно про pre emphasis можете прочитать в datasheet на любую из этих микросхем.
-|
-| VAN | VMF_VCCF | INTEGER ||
+| VAN | LVDS_Prehemphasis | BOOL |Скорое всего речь идёт о ошибке написания или французском произношении технологии под названием pre-emphasis. Если вкратце то это -усиление lvds сигнала на концах фронтов импульсов для более вертикальной кривой. Служит для устранения помех при передаче сигнала. На пятом smeg применяется конвертор от процессора на линию MAX9247, после него стоит коммутатор MAX9132. Более подробно про pre emphasis можете прочитать в datasheet на любую из этих микросхем.<br>По умолчанию 0<br>управляет первым или единственным выводом|
+| VAN | LVDS_Prehemphasis_2 | BOOL |Скорое всего речь идёт о ошибке написания или французском произношении технологии под названием pre-emphasis. Если вкратце то это -усиление lvds сигнала на концах фронтов импульсов для более вертикальной кривой. Служит для устранения помех при передаче сигнала. На пятом smeg применяется конвертор от процессора на линию MAX9247, после него стоит коммутатор MAX9132. Более подробно про pre emphasis можете прочитать в datasheet на любую из этих микросхем.<br>По умолчанию 0<br>управляет вторым выводом (CIROCCO) там где он есть|
+| VAN | VMF_VCCF | INTEGER |Тип подрулевых переключателей и кнопок на руле|
 
 
 |Секция|Имя|Тип|Значения|
@@ -83,16 +81,16 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | diag | DAB_Activity_Threshold | INTEGER ||
-| diag | Diag_tool_signature | INTEGER ||
-| diag | Diag_tool_signature | INTEGER ||
-| diag | Diag_tool_signature | INTEGER ||
+| diag | Diag_tool_signature | INTEGER |1/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
+| diag | Diag_tool_signature | INTEGER |2/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
+| diag | Diag_tool_signature | INTEGER |3/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
 | diag | Free_byte | INTEGER ||
 | diag | GPS_Activity_Threshold | INTEGER ||
 | diag | Radio_Activity_Threshold | INTEGER ||
-| diag | Telecoding_date | INTEGER ||
-| diag | Telecoding_date | INTEGER ||
-| diag | Telecoding_date | INTEGER ||
-| diag | Telecoding_site | INTEGER ||
+| diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки|
+| diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки|
+| diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки|
+| diag | Telecoding_site | INTEGER |возможно означает количество отправленных байт кодировки|
 | diag | Vehicle_Brand | INTEGER ||
 | diag | Vin_crypted | BLOB ||
 
@@ -101,18 +99,18 @@
 |:---|:---|:---|---|
 | display | Alerts_Present | BOOL ||
 | display | External_Temperature | BOOL ||
-| display | Harm_INTEGER | BOOL ||
-| display | Harm_INTEGER0 | BOOL ||
-| display | Harm_INTEGERINTEGER | BOOL ||
-| display | Harm_INTEGERBOOL | BOOL ||
-| display | Harm_BOOL | BOOL ||
+| display | Harm_1 | BOOL ||
+| display | Harm_2| BOOL ||
 | display | Harm_3 | BOOL ||
-| display | Harm_STRING | BOOL ||
-| display | Harm_BLOB | BOOL ||
+| display | Harm_4 | BOOL ||
+| display | Harm_5 | BOOL ||
 | display | Harm_6 | BOOL ||
 | display | Harm_7 | BOOL ||
 | display | Harm_8 | BOOL ||
 | display | Harm_9 | BOOL ||
+| display | Harm_10| BOOL ||
+| display | Harm_11| BOOL ||
+| display | Harm_12| BOOL ||
 | display | JDA_Present | BOOL ||
 | display | LCD_Display | BOOL ||
 | display | Language_Unit | BOOL ||
@@ -124,8 +122,8 @@
 | display_configuration | Backlight_Command_Type | BOOL ||
 | display_configuration | Dark_Type | BOOL ||
 | display_configuration | Default_Display_Color | INTEGER ||
-| display_configuration | DisplayINTEGER_Config | BLOB ||
-| display_configuration | DisplayBOOL_Config | BLOB ||
+| display_configuration | Display1_Config | BLOB ||
+| display_configuration | Display2_Config | BLOB ||
 | display_configuration | Display3_Config | BLOB ||
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
@@ -301,8 +299,8 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | tuner | AM | BOOL ||
-| tuner | AntennaINTEGER_config | INTEGER ||
-| tuner | AntennaBOOL_config | INTEGER ||
+| tuner | Antenna1_config | INTEGER ||
+| tuner | Antenna2_config | INTEGER ||
 | tuner | Antennas_number | INTEGER ||
 | tuner | Country | INTEGER ||
 | tuner | Radio_Logo | BOOL ||
