@@ -13,7 +13,7 @@
 | AAS | AVR_Hue_ADV | INTEGER ||
 | AAS | AVR_Picture_Template | INTEGER ||
 
-# Климат
+# Управление климатом
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -27,11 +27,13 @@
 | Air_conditioning | type_dist | BOOL ||
 | Air_conditioning | typing_mode_present | BOOL ||
 
+# Bluetooth
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | BT_data | BT_device_name | STRING ||
 
+# EC_NR_data
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -40,6 +42,7 @@
 | EC_NR_data | p_far_out_amplify | INTEGER ||
 | EC_NR_data | p_nr_attenuation | INTEGER ||
 
+# TMC
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -47,11 +50,13 @@
 | TMC | TMC_Validity_Date | INTEGER ||
 | TMC | TMC_Validity_Date | INTEGER ||
 
+# TMC_Auto
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | TMC_Auto | Favourite_TMC_SID | INTEGER ||
 
+# VAN
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -60,6 +65,7 @@
 | VAN | LVDS_Prehemphasis_2 | BOOL |Скорое всего речь идёт о ошибке написания или французском произношении технологии под названием pre-emphasis. Если вкратце то это -усиление lvds сигнала на концах фронтов импульсов для более вертикальной кривой. Служит для устранения помех при передаче сигнала. На пятом smeg применяется конвертор от процессора на линию MAX9247, после него стоит коммутатор MAX9132. Более подробно про pre emphasis можете прочитать в datasheet на любую из этих микросхем.<br>По умолчанию 0<br>управляет вторым выводом (CIROCCO) там где он есть|
 | VAN | VMF_VCCF | INTEGER |Тип подрулевых переключателей и кнопок на руле|
 
+# Audio
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -72,11 +78,13 @@
 | audio | STT_attenuation | INTEGER ||
 | audio | Volume_Curves | INTEGER ||
 
+# Часы
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | clock | Clock_Display | BOOL ||
 
+# Diag
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -94,6 +102,7 @@
 | diag | Vehicle_Brand | INTEGER ||
 | diag | Vin_crypted | BLOB ||
 
+# Display
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -116,6 +125,7 @@
 | display | Language_Unit | BOOL ||
 | display | Matrix_Display | BOOL ||
 
+# Display_configuration
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -210,11 +220,11 @@ _display - 0 - информация от функции отображается
 | drive | rlvv_push_present | BOOL |настройка скоростных режимов (кнопка)<br>не влияет на вызов меню с руля|
 | drive | xvv_push_family | INTEGER |номер строки|
 | drive | xvv_push_priority | INTEGER |порядковый номер в строке|
-| drive | vhl_rvvi_type | INTEGER ||
 ||||
 | drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|
 | drive | rvv_rvvi_push_family | INTEGER |номер строки|
 | drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
+| drive | vhl_rvvi_type | INTEGER ||
 ||||
 | drive | sam_push_present | BOOL |контроль мёртых зон (кнопка)|
 | drive | sam_push_family | INTEGER |номер строки|
