@@ -1,4 +1,4 @@
-#AAS
+# AAS
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -13,7 +13,7 @@
 | AAS | AVR_Hue_ADV | INTEGER ||
 | AAS | AVR_Picture_Template | INTEGER ||
 
-#Климат
+# Климат
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -150,71 +150,96 @@
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Selected_Display | INTEGER ||
 
-
+  # Секция отвечает за отображение и настройку вида меню DRIVE
+_present: 0 - кнопка/функция скрыта, однако функционал может осуществлятся на внешних устройствах (например панель приборов TFT(cirocco)) ; 1 - отображает кнопку на сенсорном дисплее<br>
+_family - порядковый номер строки, в которой располагается кнопка (1-4)<br>
+_priority - порядковый номер кнопки в строке (1-3). OS сама следит за центрированием кнопок на дисплее в зависимости от их активноси<br>
+_display - 0 - информация от функции отображается на приборной панели; Информация отоброжается на дисплеи
+  
+  
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| drive | aas_display_present | BOOL ||
-| drive | aas_push_family | INTEGER ||
-| drive | aas_push_present | BOOL ||
-| drive | aas_push_priority | INTEGER ||
-| drive | afil_push_family | INTEGER ||
-| drive | afil_push_present | BOOL ||
-| drive | afil_push_priority | INTEGER ||
-| drive | amsp_speed_threshold | INTEGER ||
-| drive | artiv_push_family | INTEGER ||
-| drive | artiv_push_present | BOOL ||
-| drive | artiv_push_priority | INTEGER ||
-| drive | asr_push_family | INTEGER ||
-| drive | asr_push_present | BOOL ||
-| drive | asr_push_priority | INTEGER ||
+| drive | aas_push_present | BOOL |помощь при парковке(отключение парктроников)  (кнопка)|
+| drive | aas_push_family | INTEGER |номер строки|
+| drive | aas_push_priority | INTEGER |порядковый номер в строке|
+| drive | aas_display_present | BOOL |0-приборная панель<br>1-монитор|
+||||
+| drive | afil_push_present | BOOL |слежение за дорожной разметкой (кнопка)|
+| drive | afil_push_family | INTEGER |номер строки|
+| drive | afil_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | artiv_push_present | BOOL |слежение за интервалом движения (кнопка)|
+| drive | artiv_push_family | INTEGER |номер строки|
+| drive | artiv_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | avp_push_present | BOOL |обзор 360 (кнопка)|
+| drive | avp_push_family | INTEGER |номер строки|
+| drive | avp_push_priority | INTEGER |порядковый номер в строке|
 | drive | avp_fct_present | BOOL ||
-| drive | avp_push_family | INTEGER ||
-| drive | avp_push_present | BOOL ||
-| drive | avp_push_priority | INTEGER ||
-| drive | avr_display_present | BOOL ||
-| drive | cafr_push_family | INTEGER ||
-| drive | cafr_push_present | BOOL ||
-| drive | cafr_push_priority | INTEGER ||
-| drive | check_display_present | BOOL ||
-| drive | check_push_family | INTEGER ||
-| drive | check_push_present | BOOL ||
-| drive | check_push_priority | INTEGER ||
-| drive | cpk_display_present | BOOL ||
+||||
+| drive | cafr_push_present | BOOL |автомататический дальний свет (кнопка)|
+| drive | cafr_push_family | INTEGER |номер строки|
+| drive | cafr_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | check_push_present | BOOL |check (кнопка)|
+| drive | check_push_family | INTEGER |номер строки|
+| drive | check_push_priority | INTEGER |порядковый номер в строке|
+| drive | check_display_present | BOOL |0-приборная панель<br>1-монитор|
+||||
+| drive | cpk_push_present | BOOL |парковочный асистент (кнопка)|
+| drive | cpk_push_family | INTEGER |номер строки|
+| drive | cpk_push_priority | INTEGER |порядковый номер в строке|
 | drive | cpk_fct_present | INTEGER ||
-| drive | cpk_push_family | INTEGER ||
-| drive | cpk_push_present | BOOL ||
-| drive | cpk_push_priority | INTEGER ||
+| drive | cpk_display_present | BOOL |0-приборная панель<br>1-монитор|
+||||
+| drive | dsg_push_present | BOOL |система контроля давления в шинах (кнопка)|
+| drive | dsg_push_family | INTEGER |номер строки|
+| drive | dsg_push_priority | INTEGER |порядковый номер в строке|
 | drive | dsg_fct_present | INTEGER ||
-| drive | dsg_push_family | INTEGER ||
-| drive | dsg_push_present | BOOL ||
-| drive | dsg_push_priority | INTEGER ||
-| drive | hy_fct_present | BOOL ||
-| drive | hy_push_family | INTEGER ||
-| drive | hy_push_present | BOOL ||
-| drive | hy_push_priority | INTEGER ||
-| drive | maint_display_present | BOOL ||
-| drive | mpd_push_family | INTEGER ||
+||||
+| drive | maint_display_present | BOOL |Отображение сервисного интервала<br>0-приборная панель<br>1-монитор(в меню check)|
+  ||||
+| drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_present | BOOL ||
-| drive | mpd_push_priority | INTEGER ||
-| drive | perso_push_family | INTEGER ||
+| drive | mpd_push_priority | INTEGER |порядковый номер в строке|
+  ||||
+| drive | perso_push_family | INTEGER |номер строки|
 | drive | perso_push_present | BOOL ||
-| drive | perso_push_priority | INTEGER ||
+| drive | perso_push_priority | INTEGER |порядковый номер в строке|
+  ||||
 | drive | rlvv_push_present | BOOL ||
+  ||||
 | drive | rvv_rvvi_present | BOOL ||
-| drive | rvv_rvvi_push_family | INTEGER ||
-| drive | rvv_rvvi_push_priority | INTEGER ||
+| drive | rvv_rvvi_push_family | INTEGER |номер строки|
+| drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
+  ||||
 | drive | sam_push_family | INTEGER ||
 | drive | sam_push_present | BOOL ||
-| drive | sam_push_priority | INTEGER ||
+| drive | sam_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | stt_fct_present | BOOL ||
+| drive | stt_push_family | INTEGER |номер строки|
+| drive | stt_push_present | BOOL ||
+| drive | stt_push_priority | INTEGER |порядковый номер в строке|
+||||
 | drive | scp6_speed_threshold | INTEGER ||
 | drive | scp9_speed_threshold | INTEGER ||
-| drive | stt_fct_present | BOOL ||
-| drive | stt_push_family | INTEGER ||
-| drive | stt_push_present | BOOL ||
-| drive | stt_push_priority | INTEGER ||
 | drive | vhl_rvvi_type | INTEGER ||
-| drive | xvv_push_family | INTEGER ||
-| drive | xvv_push_priority | INTEGER ||
+| drive | xvv_push_family | INTEGER |номер строки|
+| drive | xvv_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | avr_display_present | BOOL ||
+||||
+| drive | asr_push_family | INTEGER |номер строки|
+| drive | asr_push_present | BOOL ||
+| drive | asr_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | hy_fct_present | BOOL ||
+| drive | hy_push_family | INTEGER |номер строки|
+| drive | hy_push_present | BOOL ||
+| drive | hy_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | amsp_speed_threshold | INTEGER ||
 
 
 |Секция|Имя|Тип|Значения|
