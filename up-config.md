@@ -154,7 +154,7 @@
 _present: 0 - кнопка/функция скрыта, однако функционал может осуществлятся на внешних устройствах (например панель приборов TFT(cirocco)) ; 1 - отображает кнопку на сенсорном дисплее<br>
 _family - порядковый номер строки, в которой располагается кнопка (1-4)<br>
 _priority - порядковый номер кнопки в строке (1-3). OS сама следит за центрированием кнопок на дисплее в зависимости от их активноси<br>
-_display - 0 - информация от функции отображается на приборной панели; Информация отоброжается на дисплеи
+_display - 0 - информация от функции отображается на приборной панели; 1 - Информация отоброжается на дисплеи
   
   
 |Секция|Имя|Тип|Значения|
@@ -163,6 +163,8 @@ _display - 0 - информация от функции отображается
 | drive | aas_push_family | INTEGER |номер строки|
 | drive | aas_push_priority | INTEGER |порядковый номер в строке|
 | drive | aas_display_present | BOOL |0-приборная панель<br>1-монитор|
+||||
+| drive | avr_display_present | BOOL |камера заднего вида<br>0-приборная панель<br>1-монитор|
 ||||
 | drive | afil_push_present | BOOL |слежение за дорожной разметкой (кнопка)|
 | drive | afil_push_family | INTEGER |номер строки|
@@ -175,7 +177,7 @@ _display - 0 - информация от функции отображается
 | drive | avp_push_present | BOOL |обзор 360 (кнопка)|
 | drive | avp_push_family | INTEGER |номер строки|
 | drive | avp_push_priority | INTEGER |порядковый номер в строке|
-| drive | avp_fct_present | BOOL ||
+| drive | avp_fct_present | BOOL |0 - функция отсутствует<br> 1 - Функция имеется|
 ||||
 | drive | cafr_push_present | BOOL |автомататический дальний свет (кнопка)|
 | drive | cafr_push_family | INTEGER |номер строки|
@@ -185,61 +187,56 @@ _display - 0 - информация от функции отображается
 | drive | check_push_family | INTEGER |номер строки|
 | drive | check_push_priority | INTEGER |порядковый номер в строке|
 | drive | check_display_present | BOOL |0-приборная панель<br>1-монитор|
+| drive | maint_display_present | BOOL |Отображение сервисного интервала<br>0-приборная панель<br>1-монитор(в меню check)|
 ||||
 | drive | cpk_push_present | BOOL |парковочный асистент (кнопка)|
 | drive | cpk_push_family | INTEGER |номер строки|
 | drive | cpk_push_priority | INTEGER |порядковый номер в строке|
-| drive | cpk_fct_present | INTEGER ||
+| drive | cpk_fct_present | INTEGER |Тип системы помощи при парковке:<br>0 - Функция отсутствует<br>1 - Полуавтоматическая система помощи при парковке параллельно тротуару имеется<br>2 - Полуавтоматическая система помощи при парковке параллельно и перпендикулярно тротуару имеется|
 | drive | cpk_display_present | BOOL |0-приборная панель<br>1-монитор|
+| drive | amsp_speed_threshold | INTEGER |Перпендикулярная парковка (кнопка)<br>скорость при которой кнопка становится серой|
+| drive | scp6_speed_threshold | INTEGER |Начало параллельной парковки (кнопка)<br>скорость при которой кнопка становится серой|
+| drive | scp9_speed_threshold | INTEGER |Выезд с параллельной парковки (кнопка)<br>скорость при которой кнопка становится серой|
 ||||
 | drive | dsg_push_present | BOOL |система контроля давления в шинах (кнопка)|
 | drive | dsg_push_family | INTEGER |номер строки|
 | drive | dsg_push_priority | INTEGER |порядковый номер в строке|
-| drive | dsg_fct_present | INTEGER ||
+| drive | dsg_fct_present | INTEGER |<br>0 - Функция отсутствует<br>1 - косвенно(ABS/ESP)<br>2 - непосредственно (датчиками в колёсах)|
 ||||
-| drive | maint_display_present | BOOL |Отображение сервисного интервала<br>0-приборная панель<br>1-монитор(в меню check)|
-  ||||
-| drive | mpd_push_family | INTEGER |номер строки|
-| drive | mpd_push_present | BOOL ||
-| drive | mpd_push_priority | INTEGER |порядковый номер в строке|
-  ||||
+| drive | perso_push_present | BOOL |меню параметры (кнопка)|
 | drive | perso_push_family | INTEGER |номер строки|
-| drive | perso_push_present | BOOL ||
 | drive | perso_push_priority | INTEGER |порядковый номер в строке|
-  ||||
-| drive | rlvv_push_present | BOOL ||
-  ||||
-| drive | rvv_rvvi_present | BOOL ||
-| drive | rvv_rvvi_push_family | INTEGER |номер строки|
-| drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
-  ||||
-| drive | sam_push_family | INTEGER ||
-| drive | sam_push_present | BOOL ||
-| drive | sam_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | stt_fct_present | BOOL ||
-| drive | stt_push_family | INTEGER |номер строки|
-| drive | stt_push_present | BOOL ||
-| drive | stt_push_priority | INTEGER |порядковый номер в строке|
-||||
-| drive | scp6_speed_threshold | INTEGER ||
-| drive | scp9_speed_threshold | INTEGER ||
-| drive | vhl_rvvi_type | INTEGER ||
+| drive | rlvv_push_present | BOOL |настройка скоростных режимов (кнопка)<br>не влияет на вызов меню с руля|
 | drive | xvv_push_family | INTEGER |номер строки|
 | drive | xvv_push_priority | INTEGER |порядковый номер в строке|
+| drive | vhl_rvvi_type | INTEGER ||
 ||||
-| drive | avr_display_present | BOOL ||
+| drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|
+| drive | rvv_rvvi_push_family | INTEGER |номер строки|
+| drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | asr_push_family | INTEGER |номер строки|
+| drive | sam_push_present | BOOL |контроль мёртых зон (кнопка)|
+| drive | sam_push_family | INTEGER |номер строки|
+| drive | sam_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | stt_push_present | BOOL |старт-стоп (кнопка)|
+| drive | stt_push_family | INTEGER |номер строки|
+| drive | stt_push_priority | INTEGER |порядковый номер в строке|
+| drive | stt_fct_present | BOOL |0 - функция отсутствует<br> 1 - Функция имеется|
+||||
 | drive | asr_push_present | BOOL ||
+| drive | asr_push_family | INTEGER |номер строки|
 | drive | asr_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | hy_fct_present | BOOL ||
-| drive | hy_push_family | INTEGER |номер строки|
 | drive | hy_push_present | BOOL ||
+| drive | hy_push_family | INTEGER |номер строки|
 | drive | hy_push_priority | INTEGER |порядковый номер в строке|
+| drive | hy_fct_present | BOOL |0 - функция отсутствует<br> 1 - Функция имеется|
 ||||
-| drive | amsp_speed_threshold | INTEGER ||
+| drive | mpd_push_present | BOOL ||
+| drive | mpd_push_family | INTEGER |номер строки|
+| drive | mpd_push_priority | INTEGER |порядковый номер в строке|
 
 
 |Секция|Имя|Тип|Значения|
