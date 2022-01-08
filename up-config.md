@@ -1,3 +1,5 @@
+AAS
+
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | AAS | AAS_Front_Present | BOOL ||
@@ -10,6 +12,10 @@
 | AAS | AVR_Contrast_ADV | INTEGER ||
 | AAS | AVR_Hue_ADV | INTEGER ||
 | AAS | AVR_Picture_Template | INTEGER ||
+Климат
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | Air_conditioning | AC_max_present | BOOL ||
 | Air_conditioning | AQS_present | BOOL ||
 | Air_conditioning | air_recycling_present | BOOL ||
@@ -19,19 +25,43 @@
 | Air_conditioning | type_clim | INTEGER ||
 | Air_conditioning | type_dist | BOOL ||
 | Air_conditioning | typing_mode_present | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | BT_data | BT_device_name | STRING ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | EC_NR_data | Arkamys_parameters | BLOB ||
 | EC_NR_data | p_ec_block_delay | INTEGER ||
 | EC_NR_data | p_far_out_amplify | INTEGER ||
 | EC_NR_data | p_nr_attenuation | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | TMC | TMC_Validity_Date | INTEGER ||
 | TMC | TMC_Validity_Date | INTEGER ||
 | TMC | TMC_Validity_Date | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | TMC_Auto | Favourite_TMC_SID | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | VAN | Display_orientation | BOOL ||
 | VAN | LVDS_Prehemphasis | BOOL ||
 | VAN | LVDS_Prehemphasis_BOOL | BOOL ||
 | VAN | VMF_VCCF | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | audio | Arkamys_parameters | BLOB ||
 | audio | Audio_Config | INTEGER ||
 | audio | Audio_export_conf | BOOL ||
@@ -40,7 +70,15 @@
 | audio | Rear_beep_vol_preset_std | INTEGER ||
 | audio | STT_attenuation | INTEGER ||
 | audio | Volume_Curves | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | clock | Clock_Display | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | diag | DAB_Activity_Threshold | INTEGER ||
 | diag | Diag_tool_signature | INTEGER ||
 | diag | Diag_tool_signature | INTEGER ||
@@ -54,6 +92,10 @@
 | diag | Telecoding_site | INTEGER ||
 | diag | Vehicle_Brand | INTEGER ||
 | diag | Vin_crypted | BLOB ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | display | Alerts_Present | BOOL ||
 | display | External_Temperature | BOOL ||
 | display | Harm_INTEGER | BOOL ||
@@ -72,6 +114,10 @@
 | display | LCD_Display | BOOL ||
 | display | Language_Unit | BOOL ||
 | display | Matrix_Display | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | display_configuration | Backlight_Command_Type | BOOL ||
 | display_configuration | Dark_Type | BOOL ||
 | display_configuration | Default_Display_Color | INTEGER ||
@@ -102,6 +148,10 @@
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Selected_Display | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | drive | aas_display_present | BOOL ||
 | drive | aas_push_family | INTEGER ||
 | drive | aas_push_present | BOOL ||
@@ -164,7 +214,15 @@
 | drive | vhl_rvvi_type | INTEGER ||
 | drive | xvv_push_family | INTEGER ||
 | drive | xvv_push_priority | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | general | Speed_Video | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | internet | 3G_EEM_only | BOOL ||
 | internet | Energy_type | INTEGER ||
 | internet | Handbrake_consideration | BOOL ||
@@ -176,6 +234,10 @@
 | internet | URL_Welcome_Page | STRING ||
 | internet | Web_active | BOOL ||
 | internet | Wifi_active | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
@@ -187,7 +249,15 @@
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | Volume_Threshold_FAN | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | map | DRM | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | navigation | Diag_SpeedLimit_Activation | BOOL ||
 | navigation | Diag_SpeedTrap_Activation | BOOL ||
 | navigation | Exp_Nav_With_Street_Name | BOOL ||
@@ -195,26 +265,38 @@
 | navigation | Exp_Nav_Without_Street_Name | BOOL ||
 | navigation | HW_GPS_Reset | BOOL ||
 | navigation | LocInitDiag | BLOB ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
-| supervisor | VIN | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
+| supervisor | VIN | INTEGER | 1 знак VIN|
+| supervisor | VIN | INTEGER | 2 знак VIN|
+| supervisor | VIN | INTEGER | 3 знак VIN|
+| supervisor | VIN | INTEGER | 4 знак VIN|
+| supervisor | VIN | INTEGER | 5 знак VIN|
+| supervisor | VIN | INTEGER | 6 знак VIN|
+| supervisor | VIN | INTEGER | 7 знак VIN|
+| supervisor | VIN | INTEGER | 8 знак VIN|
+| supervisor | VIN | INTEGER | 9 знак VIN|
+| supervisor | VIN | INTEGER | 10 знак VIN|
+| supervisor | VIN | INTEGER | 11 знак VIN|
+| supervisor | VIN | INTEGER | 12 знак VIN|
+| supervisor | VIN | INTEGER | 13 знак VIN|
+| supervisor | VIN | INTEGER | 14 знак VIN|
+| supervisor | VIN | INTEGER | 15 знак VIN|
+| supervisor | VIN | INTEGER | 16 знак VIN|
+| supervisor | VIN | INTEGER | 17 знак VIN|
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | trip_computer | Trip_cycling | BOOL ||
 | trip_computer | Trip_page_activation | BOOL ||
 | trip_computer | Trip_popup_activation | BOOL ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | tuner | AM | BOOL ||
 | tuner | AntennaINTEGER_config | INTEGER ||
 | tuner | AntennaBOOL_config | INTEGER ||
@@ -222,11 +304,23 @@
 | tuner | Country | INTEGER ||
 | tuner | Radio_Logo | BOOL ||
 | tuner | Sensitivity_curve | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | tuner_DAB | Antenna_config | INTEGER ||
 | tuner_DAB | DAB | INTEGER ||
 | tuner_DAB | DAB_announcements | INTEGER ||
 | tuner_DAB | Slideshow_speed_limit | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | upgrade | HarmoniesChecked | INTEGER ||
+
+
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
 | vehicle_configuration | Adaptable_Lightning | BOOL ||
 | vehicle_configuration | Ambience_Lightning | BOOL ||
 | vehicle_configuration | Ambience_Lightning_Level | BOOL ||
