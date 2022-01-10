@@ -344,7 +344,7 @@ _display - 0 - информация от функции отображается
 | tuner | Antennas_number | INTEGER |количество антен<br>0 - одна<br>1 - две|
 | tuner | Country | INTEGER |регион, определяет шаг и частотную сетку<br>Europe<br>Japon<br>Amérique latine<br>Asie et Chine<br>Arabie<br>USA<br>Corée<br>Amérique latine(Canada?)|
 | tuner | Radio_Logo | BOOL |Отображение логотипов радио станций|
-| tuner | Sensitivity_curve | INTEGER |минимальная чувствительность радио станции|
+| tuner | Sensitivity_curve | INTEGER ||
 
 # Цифровое радио
 
