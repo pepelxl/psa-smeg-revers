@@ -224,7 +224,7 @@ _display - 0 - информация от функции отображается
 | drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|
 | drive | rvv_rvvi_push_family | INTEGER |номер строки|
 | drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
-| drive | vhl_rvvi_type | INTEGER ||
+| drive | vhl_rvvi_type | INTEGER |принимает значения:<br> - régulation de vitesse véhicule<br> - Régulation de vitesse véhicule adaptée<br> - Régulation de vitesse véhicule adaptée sélectionnée<br>требуется проверка, третий вариант, может относится к круиз-контролю с функцией торможения или заданию интервала в секундах\диапазонах|
 ||||
 | drive | sam_push_present | BOOL |контроль мёртых зон (кнопка)|
 | drive | sam_push_family | INTEGER |номер строки|
@@ -248,11 +248,13 @@ _display - 0 - информация от функции отображается
 | drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_priority | INTEGER |порядковый номер в строке|
 
+# General
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | general | Speed_Video | INTEGER ||
 
+# Internet
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -268,6 +270,7 @@ _display - 0 - информация от функции отображается
 | internet | Web_active | BOOL ||
 | internet | Wifi_active | BOOL ||
 
+# Keyboard
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -283,11 +286,13 @@ _display - 0 - информация от функции отображается
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | Volume_Threshold_FAN | INTEGER ||
 
+# Map
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| map | DRM | BOOL ||
+| map | DRM | BOOL |Отключает проверку ключа при установке новых версий карт|
 
+# Навигация
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -299,6 +304,7 @@ _display - 0 - информация от функции отображается
 | navigation | HW_GPS_Reset | BOOL ||
 | navigation | LocInitDiag | BLOB ||
 
+# Supervisor
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -320,6 +326,7 @@ _display - 0 - информация от функции отображается
 | supervisor | VIN | INTEGER | 16 знак VIN|
 | supervisor | VIN | INTEGER | 17 знак VIN|
 
+# Trip_computer
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -327,17 +334,19 @@ _display - 0 - информация от функции отображается
 | trip_computer | Trip_page_activation | BOOL ||
 | trip_computer | Trip_popup_activation | BOOL ||
 
+# Аналоговое радио
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| tuner | AM | BOOL ||
-| tuner | Antenna1_config | INTEGER ||
-| tuner | Antenna2_config | INTEGER ||
-| tuner | Antennas_number | INTEGER ||
-| tuner | Country | INTEGER ||
-| tuner | Radio_Logo | BOOL ||
-| tuner | Sensitivity_curve | INTEGER ||
+| tuner | AM | BOOL |Регион AM|
+| tuner | Antenna1_config | INTEGER |Активная\Пасивная антена|
+| tuner | Antenna2_config | INTEGER |Активная\Пасивная антена|
+| tuner | Antennas_number | INTEGER |количество антен<br>0 - одна<br>1 - две|
+| tuner | Country | INTEGER |регион, определяет шаг и частотную сетку<br>Europe<br>Japon<br>Amérique latine<br>Asie et Chine<br>Arabie<br>USA<br>Corée<br>Amérique latine(Canada?)|
+| tuner | Radio_Logo | BOOL |Отображение логотипов радио станций|
+| tuner | Sensitivity_curve | INTEGER |минимальная чувствительность радио станции|
 
+# Цифровое радио
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -346,11 +355,13 @@ _display - 0 - информация от функции отображается
 | tuner_DAB | DAB_announcements | INTEGER ||
 | tuner_DAB | Slideshow_speed_limit | INTEGER ||
 
+# Upgrade
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | upgrade | HarmoniesChecked | INTEGER ||
 
+# Конфигурация автомобиля
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
