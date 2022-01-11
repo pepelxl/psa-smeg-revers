@@ -3,7 +3,7 @@
 | № | Имя | Где используется | Контенер |
 |:---|:---|:---|:---|
 |1|GRAPHIC|С4 picasso без cirocco|Zone=1<br>Pozition=1|
-|2|ELLIPTIC|C4 picasso cirocco|Zone1=<br>Pozition=2|
+|2|ELLIPTIC|C4 picasso cirocco|Zone=1<br>Pozition=2|
 |3|CUBIC|C4 picasso cirocco|Zone=1<br>Pozition=3|
 |4|REFLEX||Zone=3<br>Pozition=2|
 |5|GRAPHIC|C4 picasso cirocco|Zone=1<br>Pozition=4|
