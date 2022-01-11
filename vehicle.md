@@ -15,5 +15,5 @@
 | 0x0805 | B75 | citroen DS4 |
 | 0x3001 | B785 | citroen C4 Picasso II |
 | 0x3008 | B787 | citroen C4 Grand Picasso II |
-| 0x3101 | T91 | 308 ?|
-| 0x3102 | T92 | 308 ?|
+| 0x3101 | T91 | peugeot 308 ?|
+| 0x3102 | T92 | peugeot 308 ?|
