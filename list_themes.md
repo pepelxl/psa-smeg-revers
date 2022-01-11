@@ -7,7 +7,7 @@
 |3|CUBIC|C4 picasso cirocco|Zone=1<br>Pozition=3|
 |4|REFLEX||Zone=3<br>Pozition=2|
 |5|GRAPHIC|C4 picasso cirocco|Zone=1<br>Pozition=4|
-|6|SQUARE||Zone=5<br>Pozition=1|
+|6|SQUARE|308|Zone=5<br>Pozition=1|
 |7|ESSENTIEL||Zone=3<br>Pozition=3|
 |8|REDLINE||Zone=3<br>Pozition=1|
 |9|WARMLIGHT||Zone=5<br>Pozition=2|
