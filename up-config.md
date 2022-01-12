@@ -108,18 +108,18 @@
 |:---|:---|:---|---|
 | display | Alerts_Present | BOOL ||
 | display | External_Temperature | BOOL ||
-| display | Harm_1 | BOOL ||
-| display | Harm_2| BOOL ||
-| display | Harm_3 | BOOL ||
-| display | Harm_4 | BOOL ||
-| display | Harm_5 | BOOL ||
-| display | Harm_6 | BOOL ||
-| display | Harm_7 | BOOL ||
-| display | Harm_8 | BOOL ||
-| display | Harm_9 | BOOL ||
-| display | Harm_10| BOOL ||
-| display | Harm_11| BOOL ||
-| display | Harm_12| BOOL ||
+| display | Harm_1 | BOOL |наличие темы|
+| display | Harm_2| BOOL |наличие темы|
+| display | Harm_3 | BOOL |наличие темы|
+| display | Harm_4 | BOOL |наличие темы|
+| display | Harm_5 | BOOL |наличие темы|
+| display | Harm_6 | BOOL |наличие темы|
+| display | Harm_7 | BOOL |наличие темы|
+| display | Harm_8 | BOOL |наличие темы|
+| display | Harm_9 | BOOL |наличие темы|
+| display | Harm_10| BOOL |наличие темы|
+| display | Harm_11| BOOL |наличие темы|
+| display | Harm_12| BOOL |наличие темы|
 | display | JDA_Present | BOOL ||
 | display | LCD_Display | BOOL |аргумент активируется, если установлен внешний LCD дисплей<br>Например: приборная панель С4 picasso без cirocco|
 | display | Language_Unit | BOOL ||
@@ -129,12 +129,12 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| display_configuration | Backlight_Command_Type | BOOL ||
-| display_configuration | Dark_Type | BOOL ||
+| display_configuration | Backlight_Command_Type | BOOL | параметр активен при cirocco ?|
+| display_configuration | Dark_Type | BOOL |выход из ночного режима<br>0-сенсоная панель пробуждает диспплей<br>1-дисплей не пробуждается|
 | display_configuration | Default_Display_Color | INTEGER ||
-| display_configuration | Display1_Config | BLOB ||
-| display_configuration | Display2_Config | BLOB ||
-| display_configuration | Display3_Config | BLOB ||
+| display_configuration | Display1_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
+| display_configuration | Display2_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
+| display_configuration | Display3_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
 | display_configuration | Lightness_Table_VAN_HR | INTEGER ||
@@ -263,10 +263,10 @@ _display - 0 - информация от функции отображается
 | internet | Handbrake_consideration | BOOL ||
 | internet | PSA_portal_active | BOOL ||
 | internet | Smartapps | BOOL ||
-| internet | Speed_Internet_Lock | INTEGER ||
-| internet | URL_PSA_portal | STRING ||
-| internet | URL_Proxy | STRING ||
-| internet | URL_Welcome_Page | STRING ||
+| internet | Speed_Internet_Lock | INTEGER |скорость при которой блокируется браузер|
+| internet | URL_PSA_portal | STRING |путь к странице заглушке для вкладки приложений PSA при остутствии модема|
+| internet | URL_Proxy | STRING |прокси адрес<br>испозуется заводским модемом<br>Citroën Multicity Connect<br>Peugeot Connect Apps|
+| internet | URL_Welcome_Page | STRING |домашняя страница браузера|
 | internet | Web_active | BOOL ||
 | internet | Wifi_active | BOOL ||
 
