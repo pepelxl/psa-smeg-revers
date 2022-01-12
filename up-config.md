@@ -69,7 +69,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| audio | Arkamys_parameters | BLOB ||
+| audio | Arkamys_parameters | BLOB |набор данных меняется в зависимости от кузова<br>но, видимо, не зависит от комплектации ?|
 | audio | Audio_Config | INTEGER ||
 | audio | Audio_export_conf | BOOL ||
 | audio | Fader | BOOL ||
@@ -88,18 +88,18 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| diag | DAB_Activity_Threshold | INTEGER ||
+| diag | GPS_Activity_Threshold | INTEGER |порог определения активного состояния системы gps<br>по умолчанию 3 спутника ?|
+| diag | Radio_Activity_Threshold | INTEGER |порог определения активного состояния цифрового радио<br>по умолчанию 0dB/µV|
+| diag | DAB_Activity_Threshold | INTEGER |порог определения активного состояния цифрового радио<br>по умолчанию 15dB/µV|
 | diag | Diag_tool_signature | INTEGER |1/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
 | diag | Diag_tool_signature | INTEGER |2/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
 | diag | Diag_tool_signature | INTEGER |3/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
 | diag | Free_byte | INTEGER ||
-| diag | GPS_Activity_Threshold | INTEGER ||
-| diag | Radio_Activity_Threshold | INTEGER ||
 | diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки|
 | diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки|
 | diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки|
 | diag | Telecoding_site | INTEGER |возможно означает количество отправленных байт кодировки|
-| diag | Vehicle_Brand | INTEGER ||
+| diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>peugeot<br>citroen<br>ds|
 | diag | Vin_crypted | BLOB ||
 
 # Display
@@ -121,9 +121,9 @@
 | display | Harm_11| BOOL ||
 | display | Harm_12| BOOL ||
 | display | JDA_Present | BOOL ||
-| display | LCD_Display | BOOL ||
+| display | LCD_Display | BOOL |аргумент активируется, если установлен внешний LCD дисплей<br>Например: приборная панель С4 picasso без cirocco|
 | display | Language_Unit | BOOL ||
-| display | Matrix_Display | BOOL ||
+| display | Matrix_Display | BOOL |аргумент активируется, если установлен внешний матричный дисплей<br>Например: дисплей информационных сообщении в приборной панели|
 
 # Display_configuration
 
