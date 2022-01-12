@@ -91,14 +91,14 @@
 | diag | GPS_Activity_Threshold | INTEGER |порог определения активного состояния системы gps<br>по умолчанию 3 спутника ?|
 | diag | Radio_Activity_Threshold | INTEGER |порог определения активного состояния аналогово радио dB/µV<br>по умолчанию 0|
 | diag | DAB_Activity_Threshold | INTEGER |порог определения активного состояния цифрового радио dB/µV<br>по умолчанию 15|
-| diag | Diag_tool_signature | INTEGER |1/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
-| diag | Diag_tool_signature | INTEGER |2/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
-| diag | Diag_tool_signature | INTEGER |3/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал|
+| diag | Diag_tool_signature | INTEGER |1/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Diag_tool_signature | INTEGER |2/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Diag_tool_signature | INTEGER |3/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Free_byte | INTEGER ||
-| diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки|
-| diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки|
-| diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки|
-| diag | Telecoding_site | INTEGER |возможно означает количество отправленных байт кодировки|
+| diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_site | INTEGER |возможно означает количество отправленных байт кодировки[подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>peugeot<br>citroen<br>ds|
 | diag | Vin_crypted | BLOB ||
 
