@@ -129,7 +129,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| display_configuration | Backlight_Command_Type | BOOL | включение ползунка управления яркостью подсветки<br>параметр активен при cirocco|
+| display_configuration | Backlight_Command_Type | BOOL | включение ползунка управления яркостью подсветки (16 градаций)<br>параметр активен при cirocco|
 | display_configuration | Dark_Type | BOOL |выход из ночного режима<br>0-сенсоная панель пробуждает диспплей<br>1-дисплей не пробуждается|
 | display_configuration | Default_Display_Color | INTEGER ||
 | display_configuration | Display1_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
