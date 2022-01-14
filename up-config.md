@@ -123,13 +123,13 @@
 | display | JDA_Present | BOOL ||
 | display | LCD_Display | BOOL |аргумент активируется, если установлен внешний LCD дисплей<br>Например: приборная панель С4 picasso без cirocco|
 | display | Language_Unit | BOOL ||
-| display | Matrix_Display | BOOL |аргумент активируется, если установлен внешний матричный дисплей<br>Например: дисплей информационных сообщении в приборной панели|
+| display | Matrix_Display | BOOL |аргумент активируется, если установлен внешний матричный дисплей<br>Например: дисплей информационных сообщении в приборной панели peugeot 308|
 
 # Display_configuration
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| display_configuration | Backlight_Command_Type | BOOL | параметр активен при cirocco ?|
+| display_configuration | Backlight_Command_Type | BOOL | включение ползунка управления яркостью подсветки<br>параметр активен при cirocco|
 | display_configuration | Dark_Type | BOOL |выход из ночного режима<br>0-сенсоная панель пробуждает диспплей<br>1-дисплей не пробуждается|
 | display_configuration | Default_Display_Color | INTEGER ||
 | display_configuration | Display1_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
