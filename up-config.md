@@ -135,29 +135,29 @@
 | display_configuration | Display1_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
 | display_configuration | Display2_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
 | display_configuration | Display3_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
-| display_configuration | Lightness_Table_VAN_HR | INTEGER ||
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |0/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |1/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |2/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |3/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |4/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |5/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |6/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |7/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |8/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |9/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |10/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |11/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |12/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |13/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |14/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |15/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |16/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |17/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |18/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |19/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |20/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |21/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |22/22 яркость|
 | display_configuration | Selected_Display | INTEGER ||
 
   # Секция отвечает за отображение и настройку вида меню DRIVE
