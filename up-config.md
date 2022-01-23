@@ -106,7 +106,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| display | Alerts_Present | BOOL ||
+| display | Alerts_Present | BOOL |Всплывающие сообщения<br>Например: открыта дверь и т.д|
 | display | External_Temperature | BOOL ||
 | display | Harm_1 | BOOL |наличие темы|
 | display | Harm_2| BOOL |наличие темы|
@@ -135,22 +135,22 @@
 | display_configuration | Display1_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
 | display_configuration | Display2_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
 | display_configuration | Display3_Config | BLOB |набор данных всех дисплеев одинаков для всех комплектаций|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |0/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |1/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |2/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |3/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |4/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |5/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |6/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |7/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |8/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |9/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |10/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |11/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |12/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |13/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |14/22 яркость|
-| display_configuration | Lightness_Table_VAN_HR | INTEGER |15/22 яркость|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |0/22 яркость сенсорного дисплея 1/16 |
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |1/22 яркость сенсорного дисплея 2/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |2/22 яркость сенсорного дисплея 3/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |3/22 яркость сенсорного дисплея 4/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |4/22 яркость сенсорного дисплея 5/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |5/22 яркость сенсорного дисплея 6/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |6/22 яркость сенсорного дисплея 7/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |7/22 яркость сенсорного дисплея 8/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |8/22 яркость сенсорного дисплея 9/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |9/22 яркость сенсорного дисплея 10/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |10/22 яркость сенсорного дисплея 11/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |11/22 яркость сенсорного дисплея 12/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |12/22 яркость сенсорного дисплея 13/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |13/22 яркость сенсорного дисплея 14/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |14/22 яркость сенсорного дисплея 15/16|
+| display_configuration | Lightness_Table_VAN_HR | INTEGER |15/22 яркость сенсорного дисплея 16/16|
 | display_configuration | Lightness_Table_VAN_HR | INTEGER |16/22 яркость|
 | display_configuration | Lightness_Table_VAN_HR | INTEGER |17/22 яркость|
 | display_configuration | Lightness_Table_VAN_HR | INTEGER |18/22 яркость|
