@@ -267,7 +267,7 @@ _display - 0 - информация от функции отображается
 | internet | URL_PSA_portal | STRING |путь к странице заглушке для вкладки приложений PSA при остутствии модема|
 | internet | URL_Proxy | STRING |прокси адрес<br>испозуется заводским модемом<br>Citroën Multicity Connect<br>Peugeot Connect Apps|
 | internet | URL_Welcome_Page | STRING |домашняя страница браузера|
-| internet | Web_active | BOOL ||
+| internet | Web_active | BOOL | активирует встроенный браузер|
 | internet | Wifi_active | BOOL ||
 
 # Keyboard
