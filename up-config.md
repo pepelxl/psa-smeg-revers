@@ -331,7 +331,7 @@ _display - 0 - информация от функции отображается
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | trip_computer | Trip_cycling | BOOL ||
-| trip_computer | Trip_page_activation | BOOL ||
+| trip_computer | Trip_page_activation | BOOL |активирует меню бортового компъютера<br>в секции drive. занимает третий столбик первой страницы|
 | trip_computer | Trip_popup_activation | BOOL ||
 
 # Аналоговое радио
