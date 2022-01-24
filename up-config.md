@@ -365,6 +365,8 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
+| vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
+| vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
 | vehicle_configuration | Adaptable_Lightning | BOOL ||
 | vehicle_configuration | Ambience_Lightning | BOOL ||
 | vehicle_configuration | Ambience_Lightning_Level | BOOL ||
@@ -376,7 +378,6 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Rear_Wiper | BOOL ||
 | vehicle_configuration | Auto_Sec_Brake | BOOL ||
 | vehicle_configuration | Back_Flap | BOOL ||
-| vehicle_configuration | Bodywork_Type | INTEGER ||
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Collision_Risk_Menu | BOOL ||
@@ -395,7 +396,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Remote_Doors_Locking | BOOL ||
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
-| vehicle_configuration | Speed_limiter_conf | BOOL ||
+| vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя|
 | vehicle_configuration | Urban_FARC | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
@@ -406,6 +407,5 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | VMFFirstPage | BOOL ||
 | vehicle_configuration | VMFFuncState | BOOL ||
 | vehicle_configuration | VMFProfile | BOOL ||
-| vehicle_configuration | Vehicle_Type | INTEGER ||
 | vehicle_configuration | Welcome_Lighting | BOOL ||
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
