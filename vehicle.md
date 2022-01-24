@@ -23,3 +23,4 @@
 Config[1]=Vehicle_Type<br>
 Config[0]=Bodywork_Type<br>
 Пример: citroen C4 grand picasso = 0x3008 Vehicle_Type=48 Bodywork_Type=8<br>
+Соответственно силуэт должен присутствовать в выбраной теме<br>
