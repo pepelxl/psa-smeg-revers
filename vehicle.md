@@ -17,3 +17,9 @@
 | 0x3008 | B787 | citroen C4 Grand Picasso II |
 | 0x3101 | T91 | peugeot 308|
 | 0x3102 | T92 | peugeot 308 SW|
+
+
+Предположение: столбец конфиг является составным.<br>
+Config[1]=Vehicle_Type<br>
+Config[0]=Bodywork_Type<br>
+Пример: citroen C4 grand picasso = 0x3008 Vehicle_Type=48 Bodywork_Type=8<br>
