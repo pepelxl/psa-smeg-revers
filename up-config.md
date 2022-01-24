@@ -330,9 +330,9 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| trip_computer | Trip_cycling | BOOL | переключение вкладок бортового компъютера подрулевой кнопкой|
-| trip_computer | Trip_page_activation | BOOL |активирует меню бортового компъютера в секции drive. занимает третий столбик первой страницы|
-| trip_computer | Trip_popup_activation | BOOL ||
+| trip_computer | Trip_cycling | BOOL | переход в меню и переключение вкладок бортового компъютера подрулевой кнопкой<br>работает при активированной Trip_page_activation|
+| trip_computer | Trip_page_activation | BOOL |активирует меню бортового компъютера в секции drive. занимает один из столбиков первой страницы|
+| trip_computer | Trip_popup_activation | BOOL |Вместо Trip_page_activation подрулевая кнопка циклично вызывает всплывающие окна с вкладками бортового компъютера|
 
 # Аналоговое радио
 
