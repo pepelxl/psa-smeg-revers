@@ -368,21 +368,21 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
 | vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
 | vehicle_configuration | Adaptable_Lightning | BOOL ||
-| vehicle_configuration | Ambience_Lightning | BOOL ||
-| vehicle_configuration | Ambience_Lightning_Level | BOOL ||
+| vehicle_configuration | Ambience_Lightning | BOOL |Пункт в меню<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
+| vehicle_configuration | Ambience_Lightning_Level | BOOL |Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL ||
 | vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | Auto_Rear_View | BOOL ||
 | vehicle_configuration | Auto_Rear_Wiper | BOOL ||
-| vehicle_configuration | Auto_Sec_Brake | BOOL ||
+| vehicle_configuration | Auto_Sec_Brake | BOOL |Пункт в меню<br>Автоматический стояночный тормоз|
 | vehicle_configuration | Back_Flap | BOOL ||
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
-| vehicle_configuration | Collision_Risk_Menu | BOOL ||
+| vehicle_configuration | Collision_Risk_Menu | BOOL |Пункт в меню<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
 | vehicle_configuration | Courtesy_Lightning | BOOL ||
-| vehicle_configuration | Diurnal_Headlights | BOOL ||
+| vehicle_configuration | Diurnal_Headlights | BOOL |Пункт в меню<br>Дневные ходовые огни|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL ||
 | vehicle_configuration | Driver_Welcome | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL ||
@@ -398,6 +398,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
 | vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя|
 | vehicle_configuration | Urban_FARC | BOOL ||
+| vehicle_configuration | Welcome_Lighting | BOOL ||
+| vehicle_configuration | Windows_Partial_Opening | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
 | vehicle_configuration | VMFBlackPanel | BOOL ||
@@ -407,5 +409,3 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | VMFFirstPage | BOOL ||
 | vehicle_configuration | VMFFuncState | BOOL ||
 | vehicle_configuration | VMFProfile | BOOL ||
-| vehicle_configuration | Welcome_Lighting | BOOL ||
-| vehicle_configuration | Windows_Partial_Opening | BOOL ||
