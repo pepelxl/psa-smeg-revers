@@ -396,7 +396,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Remote_Doors_Locking | BOOL ||
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
-| vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя|
+| vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая.|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение|
 | vehicle_configuration | Welcome_Lighting | BOOL ||
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
