@@ -11,7 +11,7 @@
 | AAS | AVR_Contrast | INTEGER ||
 | AAS | AVR_Contrast_ADV | INTEGER ||
 | AAS | AVR_Hue_ADV | INTEGER ||
-| AAS | AVR_Picture_Template | INTEGER ||
+| AAS | AVR_Picture_Template | INTEGER |Выбор шаблона линий разметки камеры заднего вида|
 
 # Управление климатом
 
@@ -397,7 +397,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
 | vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя|
-| vehicle_configuration | Urban_FARC | BOOL ||
+| vehicle_configuration | Urban_FARC | BOOL |Пункт в меню<br>Автоматическое экстренное торможение|
 | vehicle_configuration | Welcome_Lighting | BOOL ||
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
