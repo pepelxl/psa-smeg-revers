@@ -367,7 +367,7 @@ _display - 0 - информация от функции отображается
 |:---|:---|:---|---|
 | vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
 | vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
-| vehicle_configuration | Adaptable_Lightning | BOOL ||
+| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню**<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
 | vehicle_configuration | Ambience_Lightning_Level | BOOL |Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
 | vehicle_configuration | AsrPlus | BOOL ||
@@ -375,13 +375,13 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL ||
 | vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | Auto_Rear_View | BOOL ||
-| vehicle_configuration | Auto_Rear_Wiper | BOOL ||
+| vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
-| vehicle_configuration | Back_Flap | BOOL ||
+| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню**<br>Электропривод крышки багажника|
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
-| vehicle_configuration | Courtesy_Lightning | BOOL ||
+| vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню**<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню**<br>Дневные ходовые огни|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL ||
 | vehicle_configuration | Driver_Welcome | BOOL ||
