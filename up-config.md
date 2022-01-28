@@ -374,16 +374,16 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Audio_Harm | BOOL ||
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL ||
 | vehicle_configuration | Auto_Headlights | BOOL ||
-| vehicle_configuration | Auto_Rear_View | BOOL ||
+| vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню**<br>Автоматический наклон зеркала при движением задним ходом|
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
-| vehicle_configuration | Back_Flap | BOOL ||
+| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню**<br>Электропривод крышки багажника|
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
 | vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню**<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню**<br>Дневные ходовые огни|
-| vehicle_configuration | Driver_Doors_Selectivity | BOOL ||
+| vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню**<br>ПДУ для двери водителя|
 | vehicle_configuration | Driver_Welcome | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL ||
 | vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освешения на левую полосу на шоссе. В теории требует поворотных фар и камеры. Что она делает в голове???|
