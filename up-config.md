@@ -367,26 +367,32 @@ _display - 0 - информация от функции отображается
 |:---|:---|:---|---|
 | vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
 | vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
-| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
-| vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню**<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
-| vehicle_configuration | Ambience_Lightning_Level | BOOL |Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
-| vehicle_configuration | AsrPlus | BOOL ||
-| vehicle_configuration | Audio_Harm | BOOL ||
-| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL ||
-| vehicle_configuration | Auto_Headlights | BOOL ||
+||||
 | vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню**<br>Автоматический наклон зеркала при движением задним ходом|
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
-| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню**<br>Электропривод крышки багажника|
-| vehicle_configuration | Boot_Perm_Locking | BOOL ||
-| vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
+| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL ||
+| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение|
+||||
+| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
+| vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню**<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
+| vehicle_configuration | Ambience_Lightning_Level | BOOL |Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
+| vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню**<br>Дистанционное включение световых приборов|
 | vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню**<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню**<br>Дневные ходовые огни|
+||||
+| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню**<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню**<br>ПДУ для двери водителя|
+||||
+| vehicle_configuration | AsrPlus | BOOL ||
+| vehicle_configuration | Audio_Harm | BOOL ||
+| vehicle_configuration | Auto_Headlights | BOOL ||
+| vehicle_configuration | Boot_Perm_Locking | BOOL ||
+| vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Driver_Welcome | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL ||
-| vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освешения на левую полосу на шоссе. В теории требует поворотных фар и камеры. Что она делает в голове???|
+| vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освещения на левую полосу на шоссе. В теории требует поворотных фар и камеры, плюс возможность определения шоссе с картографических данных. Что она делает в голове при условии наличия отдельного пунктов меню(судя по таблицам)???|
 | vehicle_configuration | Near_Obstacles_Detection | INTEGER ||
 | vehicle_configuration | Other_Doors_Selectivity | BOOL ||
 | vehicle_configuration | Overtake_Help | INTEGER ||
@@ -397,8 +403,6 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
 | vehicle_configuration | Speed_limiter_conf | BOOL |Работа с меню установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая.|
-| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение|
-| vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню**<br>Дистанционное включение световых приборов|
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
