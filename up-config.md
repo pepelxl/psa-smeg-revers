@@ -224,7 +224,7 @@ _display - 0 - информация от функции отображается
 | drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|
 | drive | rvv_rvvi_push_family | INTEGER |номер строки|
 | drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
-| drive | vhl_rvvi_type | INTEGER |Вставка управления дистанцией активоного круиз-контроля во вкладке задания скоростей(при нажатии кнопки MEM)<br> - régulation de vitesse véhicule(обычный круиз - без вставки)<br> - Régulation de vitesse véhicule adaptée(вставка управления в секундах от 1 до 3)<br> - Régulation de vitesse véhicule adaptée sélectionnée(???)<br>
+| drive | vhl_rvvi_type | INTEGER |Вставка управления дистанцией активоного круиз-контроля во вкладке задания скоростей(при нажатии кнопки MEM)<br> - Régulation de vitesse véhicule(обычный круиз - без вставки)<br> - Régulation de vitesse véhicule adaptée(вставка управления в секундах от 1 до 3)<br> - Régulation de vitesse véhicule adaptée sélectionnée(???)<br>
 ||||
 | drive | sam_push_present | BOOL |контроль мёртых зон (кнопка)|
 | drive | sam_push_family | INTEGER |номер строки|
