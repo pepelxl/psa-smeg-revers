@@ -122,7 +122,7 @@
 | display | Harm_12| BOOL |наличие темы|
 | display | JDA_Present | BOOL ||
 | display | LCD_Display | BOOL |аргумент активируется, если установлен внешний LCD дисплей<br>Например: приборная панель С4 picasso без cirocco|
-| display | Language_Unit | BOOL ||
+| display | Language_Unit | BOOL |меню выбора языков|
 | display | Matrix_Display | BOOL |аргумент активируется, если установлен внешний матричный дисплей<br>Например: дисплей информационных сообщении в приборной панели peugeot 308|
 
 # Display_configuration
