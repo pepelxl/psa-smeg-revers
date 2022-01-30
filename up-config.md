@@ -70,7 +70,7 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | audio | Arkamys_parameters | BLOB |набор данных меняется в зависимости от кузова<br>но, видимо, не зависит от комплектации ?|
-| audio | Audio_Config | INTEGER ||
+| audio | Audio_Config | INTEGER |закодирован тип звукового усилителя|
 | audio | Audio_export_conf | BOOL ||
 | audio | Fader | BOOL ||
 | audio | Front_beep_vol_preset_std | INTEGER ||
@@ -279,7 +279,7 @@ _display - 0 - информация от функции отображается
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
-| keyboard | FMUX_Config | BLOB ||
+| keyboard | FMUX_Config | BLOB |Набор данных отвечающих за конфигурацию физических кнопок управления магнитолой|
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | FanCurrentLimits | INTEGER ||
