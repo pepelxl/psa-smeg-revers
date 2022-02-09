@@ -11,6 +11,6 @@
 |7|ESSENTIEL|C4 cactus|Zone=3<br>Pozition=3|
 |8|REDLINE|208<br>308 ?|Zone=3<br>Pozition=1|
 |9|WARMLIGHT|508<br>2008|Zone=5<br>Pozition=2|
-|10||Отсутствует в прошивке||
-|11||Отсутствует в прошивке||
+|10|SQUARE(AUDIO)|||
+|11|WARMLIGHT(AUDIO)|||
 |12|ESSENTIEL|DS4|Zone=5<br>Pozition=3|
