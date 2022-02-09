@@ -372,7 +372,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
-| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |Установка чекбокса "Автоматическое торможение" в меню Collision_Risk_Menu|
+| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |Чекбокс "Автоматическое торможение" в меню Collision_Risk_Menu|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение|
 ||||
 | vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
