@@ -4,8 +4,8 @@
 |Config|Vhl|Имя|
 |:---|:---|---|
 | 0x0001 | E3 | citroen C4 Cactus|
-| 0x0100 | A90 | peugeot 208 ? |
-| 0x0101 | A91 | peugeot 208 ? |
+| 0x0100 | A90 | peugeot 208 3-двери |
+| 0x0101 | A91 | peugeot 208 5-дверей |
 | 0x0104 | A94 | peugeot 2008 |
 | 0x0108 | A94MV | peugeot 2008 1 рестайлинг|
 | 0x0601 | W23 | peugeot 508 ?|
