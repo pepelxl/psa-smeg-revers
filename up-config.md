@@ -330,7 +330,7 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| trip_computer | Trip_cycling | BOOL | переход в меню и переключение вкладок бортового компъютера подрулевой кнопкой<br>работает при активированной Trip_page_activation|
+| trip_computer | Trip_cycling | BOOL | переход в меню и переключение вкладок бортового компъютера подрулевой кнопкой. Работает при активированной Trip_page_activation. Если включены все три пункта, то подрулевая кнопка переключает вкладки в секции drive, а на других страницах появляются всплывающие окна. |
 | trip_computer | Trip_page_activation | BOOL |активирует меню бортового компъютера в секции drive. занимает один из столбиков первой страницы|
 | trip_computer | Trip_popup_activation | BOOL |Вместо Trip_page_activation подрулевая кнопка циклично вызывает всплывающие окна с вкладками бортового компъютера|
 
@@ -372,8 +372,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
-| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |Чекбокс "Автоматическое торможение" в меню Collision_Risk_Menu|
-| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение|
+| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
+| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
 ||||
 | vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню**<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
