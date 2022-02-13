@@ -31,7 +31,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| BT_data | BT_device_name | STRING ||
+| BT_data | BT_device_name | STRING |Имя bluetooth(есть второе, приоритет не понятен)|
 
 # EC_NR_data
 
@@ -299,7 +299,7 @@ _display - 0 - информация от функции отображается
 | navigation | Diag_SpeedLimit_Activation | BOOL ||
 | navigation | Diag_SpeedTrap_Activation | BOOL ||
 | navigation | Exp_Nav_With_Street_Name | BOOL ||
-| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL ||
+| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>информация о перекрёстках|
 | navigation | Exp_Nav_Without_Street_Name | BOOL ||
 | navigation | HW_GPS_Reset | BOOL ||
 | navigation | LocInitDiag | BLOB ||
