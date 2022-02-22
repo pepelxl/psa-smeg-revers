@@ -99,7 +99,7 @@
 | diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Telecoding_site | INTEGER |возможно означает количество отправленных байт кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
-| diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>peugeot<br>citroen<br>ds|
+| diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>1 peugeot<br>2 citroen<br>3 ds|
 | diag | Vin_crypted | BLOB ||
 
 # Display
