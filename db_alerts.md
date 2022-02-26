@@ -55,7 +55,7 @@
 |11|Eclairage d’accueil||![alt text](/image/param11.png)|
 |12|Eclairage adaptatif||![alt text](/image/param12.png)|
 |13|Feux diurnes||![alt text](/image/param13.png)|
-|14|Eclairage d’ambiance||![alt text](/image/param14.png)|
+|14|Eclairage d’ambiance||![alt text](/image/param14.bmp)|
 |15|Motorisation du volet arrière||![alt text](/image/param15.png)|
 |16|Accueil conducteur|||
 |17|Action plip conducteur||![alt text](/image/param17.png)|
@@ -63,4 +63,4 @@
 |19|Allumage calandre|||
 |20|FARC urbain||![alt text](/image/param20.png)|
 |21|Allumage feux autoroute|||
-|22|Eclairage d’ambiance avec niveau|||
+|22|Eclairage d’ambiance avec niveau||![alt text](/image/param22.bmp)|
