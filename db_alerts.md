@@ -57,7 +57,7 @@
 |13|Feux diurnes||![alt text](/image/param13.png)|
 |14|Eclairage d’ambiance||![alt text](/image/param14.bmp)|
 |15|Motorisation du volet arrière||![alt text](/image/param15.png)|
-|16|Accueil conducteur|||
+|16|Accueil conducteur||![alt text](/image/param16.bmp|
 |17|Action plip conducteur||![alt text](/image/param17.png)|
 |18|Déverrouillage portes||![alt text](/image/param18.png)|
 |19|Allumage calandre|||
