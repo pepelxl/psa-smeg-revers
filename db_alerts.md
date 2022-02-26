@@ -41,26 +41,26 @@
 
 |IndexParam|Описание на французком|Описание|Пример изображения|
 |:---|:---|:---|---|
-|0|Essuie vitre arrière en marche arrière|||
-|1|Aide au stationnement|||
-|2|Aide au dépassement|||
-|3|Frein de parking automatique|||
-|4|Harmonie sonore|||
-|5|Alerte risque collision|||
-|6|Freinage d’urgence automatique|||
-|7|Réglage auto du rétroviseur en marche arrière|||
+|0|Essuie vitre arrière en marche arrière||![alt text](/image/param0.png)|
+|1|Aide au stationnement||![alt text](/image/param1.png)|
+|2|Aide au dépassement||![alt text](/image/param2.png)|
+|3|Frein de parking automatique||![alt text](/image/param3.png)|
+|4|Harmonie sonore||![alt text](/image/param4.png)|
+|5|Alerte risque collision||![alt text](/image/param5.png)|
+|6|Freinage d’urgence automatique||![alt text](/image/param6.png)|
+|7|Réglage auto du rétroviseur en marche arrière||![alt text](/image/param7.png)|
 |8|Action plip cabine|||
-|9|Allumage automatique des projecteurs|||
-|10|Eclairage d’accompagnement|||
-|11|Eclairage d’accueil|||
-|12|Eclairage adaptatif|||
-|13|Feux diurnes|||
-|14|Eclairage d’ambiance|||
-|15|Motorisation du volet arrière|||
+|9|Allumage automatique des projecteurs||![alt text](/image/param9.png)|
+|10|Eclairage d’accompagnement||![alt text](/image/param10.png)|
+|11|Eclairage d’accueil||![alt text](/image/param11.png)|
+|12|Eclairage adaptatif||![alt text](/image/param12.png)|
+|13|Feux diurnes||![alt text](/image/param13.png)|
+|14|Eclairage d’ambiance||![alt text](/image/param14.png)|
+|15|Motorisation du volet arrière||![alt text](/image/param15.png)|
 |16|Accueil conducteur|||
-|17|Action plip conducteur|||
-|18|Déverrouillage portes|||
+|17|Action plip conducteur||![alt text](/image/param17.png)|
+|18|Déverrouillage portes||![alt text](/image/param18.png)|
 |19|Allumage calandre|||
-|20|FARC urbain|||
+|20|FARC urbain||![alt text](/image/param20.png)|
 |21|Allumage feux autoroute|||
 |22|Eclairage d’ambiance avec niveau|||
