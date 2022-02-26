@@ -49,7 +49,7 @@
 |5|Alerte risque collision||![alt text](/image/param5.png)|
 |6|Freinage d’urgence automatique||![alt text](/image/param6.png)|
 |7|Réglage auto du rétroviseur en marche arrière||![alt text](/image/param7.png)|
-|8|Action plip cabine|||
+|8|Action plip cabine||![alt text](/image/param8.bmp)|
 |9|Allumage automatique des projecteurs||![alt text](/image/param9.png)|
 |10|Eclairage d’accompagnement||![alt text](/image/param10.png)|
 |11|Eclairage d’accueil||![alt text](/image/param11.png)|
