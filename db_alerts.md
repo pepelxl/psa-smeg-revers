@@ -45,7 +45,7 @@
 |1|Aide au stationnement||![alt text](/image/param1.png)|
 |2|Aide au dépassement||![alt text](/image/param2.png)|
 |3|Frein de parking automatique||![alt text](/image/param3.png)|
-|4|Harmonie sonore||![alt text](/image/param4.png)|
+|4|Harmonie sonore|||
 |5|Alerte risque collision||![alt text](/image/param5.png)|
 |6|Freinage d’urgence automatique||![alt text](/image/param6.png)|
 |7|Réglage auto du rétroviseur en marche arrière||![alt text](/image/param7.png)|
