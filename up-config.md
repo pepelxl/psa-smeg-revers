@@ -378,8 +378,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню** [param14](/db_alerts.md#vhl_param_order)<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
 | vehicle_configuration | Ambience_Lightning_Level | BOOL |[param22](/db_alerts.md#vhl_param_order) Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
-| vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню**<br>Дистанционное включение световых приборов|
-| vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню**<br>Сопровождающее освещение|
+| vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню** [param11](/db_alerts.md#vhl_param_order)<br>Дистанционное включение световых приборов|
+| vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню** [param10](/db_alerts.md#vhl_param_order)<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню** [param13](/db_alerts.md#vhl_param_order)<br>Дневные ходовые огни|
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
