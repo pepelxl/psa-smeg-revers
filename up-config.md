@@ -365,25 +365,25 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
-| vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](https://github.com/pepelxl/psa-smeg-revers/blob/main/vehicle.md)|
+| vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](/vehicle.md)|
+| vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](/vehicle.md)|
 ||||
-| vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню**<br>Автоматический наклон зеркала при движением задним ходом|
-| vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню**<br>Включение очистителя заднего стекла при движении задним ходом|
-| vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню**<br>Автоматический стояночный тормоз|
-| vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню**<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
-| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
-| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню**<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
+| vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню** [param0](/db_alerts.md#vhl_param_order)<br>Автоматический наклон зеркала при движением задним ходом|
+| vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню** [param7](/db_alerts.md#vhl_param_order)<br>Включение очистителя заднего стекла при движении задним ходом|
+| vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню** [param3](/db_alerts.md#vhl_param_order)<br>Автоматический стояночный тормоз|
+| vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
+| vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |[param6](/db_alerts.md#vhl_param_order) Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
+| vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню** [param20](/db_alerts.md#vhl_param_order)<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
 ||||
-| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню**<br>Адаптивное освещение|
-| vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню**<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
-| vehicle_configuration | Ambience_Lightning_Level | BOOL |Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
+| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение|
+| vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню** [param14](/db_alerts.md#vhl_param_order)<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
+| vehicle_configuration | Ambience_Lightning_Level | BOOL |[param22](/db_alerts.md#vhl_param_order) Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
 | vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню**<br>Дистанционное включение световых приборов|
 | vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню**<br>Сопровождающее освещение|
-| vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню**<br>Дневные ходовые огни|
+| vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню** [param13](/db_alerts.md#vhl_param_order)<br>Дневные ходовые огни|
 ||||
-| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню**<br>Электропривод крышки багажника|
-| vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню**<br>ПДУ для двери водителя|
+| vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
+| vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
