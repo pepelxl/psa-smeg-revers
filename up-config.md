@@ -242,7 +242,7 @@ _display - 0 - информация от функции отображается
 | drive | hy_push_present | BOOL ||
 | drive | hy_push_family | INTEGER |номер строки|
 | drive | hy_push_priority | INTEGER |порядковый номер в строке|
-| drive | hy_fct_present | BOOL |0 - функция отсутствует<br> 1 - Функция имеется|
+| drive | hy_fct_present | BOOL |Особый функционал!!! Этот пункт активирует страницу гибридного привода. Должен быть активирован пункт Trip_page_activation и выключены все остальные активные кнопки. Весь остальной функционал в 508 заложен физическими кнопками и пунктами в меню приборки.|
 ||||
 | drive | mpd_push_present | BOOL ||
 | drive | mpd_push_family | INTEGER |номер строки|
