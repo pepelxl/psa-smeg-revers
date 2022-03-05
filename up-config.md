@@ -235,7 +235,7 @@ _display - 0 - информация от функции отображается
 | drive | stt_push_priority | INTEGER |порядковый номер в строке|
 | drive | stt_fct_present | BOOL |0 - функция отсутствует<br> 1 - Функция имеется|
 ||||
-| drive | asr_push_present | BOOL ||
+| drive | asr_push_present | BOOL |Речь, скорее всего, идёт о кнопке отключения бробуксовке колёс. Иконка кнопки отсутствует во всех темах пятой оси, и присутствует в темах шестой оси. Все заявленные кузова в пятёрке имеют физическую кнопку|
 | drive | asr_push_family | INTEGER |номер строки|
 | drive | asr_push_priority | INTEGER |порядковый номер в строке|
 ||||
@@ -244,7 +244,7 @@ _display - 0 - информация от функции отображается
 | drive | hy_push_priority | INTEGER |порядковый номер в строке|
 | drive | hy_fct_present | BOOL |Особый функционал!!! Этот пункт активирует страницу гибридного привода. Должен быть активирован пункт Trip_page_activation и выключены все остальные активные кнопки. Весь остальной функционал в 508 заложен физическими кнопками и пунктами в меню приборки.|
 ||||
-| drive | mpd_push_present | BOOL ||
+| drive | mpd_push_present | BOOL |Предположение, так как отображения добится не смог. Речь скорее всего идёт о Mesure de place disponible(Система измерения парковочного места)(кнопка)|![alt text](/image/mpd_p.bmp)|
 | drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_priority | INTEGER |порядковый номер в строке|
 
