@@ -82,7 +82,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| clock | Clock_Display | BOOL |отображение часов|
+| clock | Clock_Display | BOOL |отображение часов. должно быть отключено вывод на внешнии дисплеи(вчастности в config_options пункт SW_OPTION_LVDS_EXPORT|
 
 # Diag
 
@@ -95,10 +95,10 @@
 | diag | Diag_tool_signature | INTEGER |2/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Diag_tool_signature | INTEGER |3/3 байт хранит идентификатор устройства/пользователя который последний раз кодировал [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Free_byte | INTEGER ||
-| diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
-| diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
-| diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
-| diag | Telecoding_site | INTEGER |возможно означает тип источника кодирования [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_date | INTEGER |1/3 байт хранит дату последней кодировки(число) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_date | INTEGER |2/3 байт хранит дату последней кодировки(месяц) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки(год) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
+| diag | Telecoding_site | INTEGER |служба, которая кодировала(обычно 0xFD(послепродажное кодирование)) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>1 peugeot<br>2 citroen<br>3 ds|
 | diag | Vin_crypted | BLOB ||
 
@@ -107,7 +107,7 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | display | Alerts_Present | BOOL |Всплывающие сообщения<br>Например: открыта дверь и т.д|
-| display | External_Temperature | BOOL |отображение внешней температуры|
+| display | External_Temperature | BOOL |отображение внешней температуры. должно быть отключено вывод на внешнии дисплеи(вчастности в config_options пункт SW_OPTION_LVDS_EXPORT|
 | display | Harm_1 | BOOL |наличие темы|
 | display | Harm_2| BOOL |наличие темы|
 | display | Harm_3 | BOOL |наличие темы|
