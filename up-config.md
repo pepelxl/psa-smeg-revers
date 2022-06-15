@@ -384,13 +384,13 @@ _display - 0 - информация от функции отображается
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя|
+| vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. Для отображения опции, BSI должен быть закодирован на наличие(zone 234С)|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
 | vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
-| vehicle_configuration | Driver_Welcome | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL ||
 | vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освещения на левую полосу на шоссе. В теории требует поворотных фар и камеры, плюс возможность определения шоссе с картографических данных. Что она делает в голове при условии наличия отдельного пунктов меню(судя по таблицам)???|
 | vehicle_configuration | Near_Obstacles_Detection | INTEGER ||
