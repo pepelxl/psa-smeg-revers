@@ -69,7 +69,7 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| audio | Arkamys_parameters | BLOB |набор данных меняется в зависимости от кузова<br>но, видимо, не зависит от комплектации ?|
+| audio | Arkamys_parameters | BLOB |набор данных меняется в зависимости от кузова<br>но, видимо, не зависит от комплектации. Представляет собой потоковый архив, который распаковывается в текстовый файл. Содержит параметры для системы Arkamys|
 | audio | Audio_Config | INTEGER |закодирован тип звукового усилителя|
 | audio | Audio_export_conf | BOOL ||
 | audio | Fader | BOOL ||
@@ -370,7 +370,7 @@ _display - 0 - информация от функции отображается
 ||||
 | vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню** [param0](/db_alerts.md#vhl_param_order)<br>Автоматический наклон зеркала при движением задним ходом|
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню** [param7](/db_alerts.md#vhl_param_order)<br>Включение очистителя заднего стекла при движении задним ходом|
-| vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню** [param3](/db_alerts.md#vhl_param_order)<br>Автоматический стояночный тормоз|
+| vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню** [param3](/db_alerts.md#vhl_param_order)<br>Автоматический стояночный тормозДля отображения опции, BSI должен быть закодирован на наличие(zone 23B3)|
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |[param6](/db_alerts.md#vhl_param_order) Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню** [param20](/db_alerts.md#vhl_param_order)<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
