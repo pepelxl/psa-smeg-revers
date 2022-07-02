@@ -362,6 +362,7 @@ _display - 0 - информация от функции отображается
 | upgrade | HarmoniesChecked | INTEGER |Назначение не известно. Предположительно это версия кодировочной страницы(привязана жостко к версии прошивки(1-10))|
 
 # Конфигурация автомобиля
+  Для отображения опций в меню недостаточно активации опций. Нужна соответствующая поддержка прошивкой блока BSI и активное состояние опции в блоке BSI.
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
@@ -371,7 +372,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню** [param0](/db_alerts.md#vhl_param_order)<br>Автоматический наклон зеркала при движением задним ходом|
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню** [param7](/db_alerts.md#vhl_param_order)<br>Включение очистителя заднего стекла при движении задним ходом|
 | vehicle_configuration | Auto_Sec_Brake | BOOL |**Пункт в меню** [param3](/db_alerts.md#vhl_param_order)<br>Автоматический стояночный тормоз. Для отображения опции, BSI должен быть закодирован на наличие(zone 23B3)|
-| vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV|
+| vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV.(BSI2010 zone 23B9)|
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |[param6](/db_alerts.md#vhl_param_order) Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню** [param20](/db_alerts.md#vhl_param_order)<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
 ||||
@@ -384,7 +385,7 @@ _display - 0 - информация от функции отображается
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя|
-| vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param16](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. Для отображения опции, BSI должен быть закодирован на наличие(zone 234С)|
+| vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param16](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. (BSI2010 zone 234C)|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
