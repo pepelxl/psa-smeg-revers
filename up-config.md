@@ -375,6 +375,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV. (BSI2010 zone 23B9)|
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |[param6](/db_alerts.md#vhl_param_order) Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню** [param20](/db_alerts.md#vhl_param_order)<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
+| vehicle_configuration | Rear_Park_Menu | BOOL |[не подтверждено]**Пункт в меню** [param1](/db_alerts.md#vhl_param_order)<br>Помощь при парковке(отключение парктроников)|
+| vehicle_configuration | Overtake_Help_Menu | BOOL |[не подтверждено]**Пункт в меню** [param2](/db_alerts.md#vhl_param_order)<br>Контроль мёртвых зон|<br>|
 ||||
 | vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню** [param14](/db_alerts.md#vhl_param_order)<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
@@ -382,6 +384,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню** [param11](/db_alerts.md#vhl_param_order)<br>Дистанционное включение световых приборов|
 | vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню** [param10](/db_alerts.md#vhl_param_order)<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню** [param13](/db_alerts.md#vhl_param_order)<br>Дневные ходовые огни|
+| vehicle_configuration | Radiator_Grille_Lighting | BOOL |[не подтверждено]**Пункт в меню** [param19](/db_alerts.md#vhl_param_order)<br>"Подсветка решетки радиатора. (BSI2010 zone 23DF)|  
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя|
@@ -392,14 +395,11 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
-| vehicle_configuration | Interactive_Form | BOOL ||
+| vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
 | vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освещения на левую полосу на шоссе. В теории требует поворотных фар и камеры, плюс возможность определения шоссе с картографических данных. Что она делает в голове при условии наличия отдельного пунктов меню(судя по таблицам)???|
 | vehicle_configuration | Near_Obstacles_Detection | INTEGER ||
 | vehicle_configuration | Other_Doors_Selectivity | BOOL ||
 | vehicle_configuration | Overtake_Help | INTEGER ||
-| vehicle_configuration | Overtake_Help_Menu | BOOL ||
-| vehicle_configuration | Radiator_Grille_Lighting | BOOL ||
-| vehicle_configuration | Rear_Park_Menu | BOOL ||
 | vehicle_configuration | Remote_Doors_Locking | BOOL ||
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL ||
