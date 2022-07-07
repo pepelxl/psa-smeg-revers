@@ -224,7 +224,7 @@ _display - 0 - информация от функции отображается
 | drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|![alt text](/image/rvv_p.bmp)|
 | drive | rvv_rvvi_push_family | INTEGER |номер строки|
 | drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
-| drive | vhl_rvvi_type | INTEGER |Вставка управления дистанцией активоного круиз-контроля во вкладке задания скоростей(при нажатии кнопки MEM)<br> - Régulation de vitesse véhicule(обычный круиз - без вставки)<br> - Régulation de vitesse véhicule adaptée(вставка управления в секундах от 1 до 3)<br> - Régulation de vitesse véhicule adaptée sélectionnée(Вариант используется совместно с rvv_rvvi_present. Автоматическии отображает вставку при автивном интелектуальном регуляторе скорости)<br>
+| drive | vhl_rvvi_type | INTEGER |Вставка управления дистанцией адаптивного круиз-контроля во вкладке задания скоростей(при нажатии кнопки MEM)<br> - Régulation de vitesse véhicule(обычный круиз - без вставки)<br> - Régulation de vitesse véhicule adaptée(вставка управления в секундах от 1 до 3)<br> - Régulation de vitesse véhicule adaptée sélectionnée(Вариант используется совместно с rvv_rvvi_present. Автоматическии отображает вставку при адаптивном круиз-контроле)<br>
 ||||
 | drive | sam_push_present | BOOL |контроль мёртых зон (кнопка)|![alt text](/image/sam_p.bmp)|
 | drive | sam_push_family | INTEGER |номер строки|
@@ -244,7 +244,7 @@ _display - 0 - информация от функции отображается
 | drive | hy_push_priority | INTEGER |порядковый номер в строке|
 | drive | hy_fct_present | BOOL |Особый функционал!!! Этот пункт активирует страницу гибридного привода. Должен быть активирован пункт Trip_page_activation и выключены все остальные активные кнопки. Весь остальной функционал в 508 заложен физическими кнопками и пунктами в меню приборки.|
 ||||
-| drive | mpd_push_present | BOOL |Предположение, так как отображения добится не смог. Речь скорее всего идёт о Mesure de place disponible(Система измерения парковочного места)(кнопка)|![alt text](/image/mpd_p.bmp)|
+| drive | mpd_push_present | BOOL |Предположение, так как отображения добится не смог. Речь скорее всего идёт о Mesure de place disponible(Система измерения парковочного места)(кнопка) аргумент кодирования присутствует в smeg и отсутствует в smeg plus|![alt text](/image/mpd_p.bmp)|
 | drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_priority | INTEGER |порядковый номер в строке|
 
