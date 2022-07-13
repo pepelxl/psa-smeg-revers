@@ -107,6 +107,7 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | display | Alerts_Present | BOOL |Всплывающие сообщения<br>Например: открыта дверь и т.д|
+| display | JDA_Present | BOOL |Журнал сообщений. Отображается под кнопкой CHECK|
 | display | External_Temperature | BOOL |отображение внешней температуры. должно быть отключено вывод на внешнии дисплеи(вчастности в config_options пункт SW_OPTION_LVDS_EXPORT|
 | display | Harm_1 | BOOL |наличие темы|
 | display | Harm_2| BOOL |наличие темы|
@@ -120,7 +121,6 @@
 | display | Harm_10| BOOL |наличие темы|
 | display | Harm_11| BOOL |наличие темы|
 | display | Harm_12| BOOL |наличие темы|
-| display | JDA_Present | BOOL ||
 | display | LCD_Display | BOOL |аргумент активируется, если установлен внешний LCD дисплей<br>Например: приборная панель С4 picasso без cirocco|
 | display | Language_Unit | BOOL |меню выбора языков|
 | display | Matrix_Display | BOOL |аргумент активируется, если установлен внешний матричный дисплей<br>Например: дисплей информационных сообщении в приборной панели peugeot 308|
