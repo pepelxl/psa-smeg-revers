@@ -279,7 +279,7 @@ _display - 0 - информация от функции отображается
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
 | keyboard | FANParameters | INTEGER ||
-| keyboard | FMUX_Config | BLOB |Набор данных отвечающих за конфигурацию физических кнопок управления магнитолой|
+| keyboard | FMUX_Config | BLOB |Набор данных отвечающих за конфигурацию физических кнопок управления магнитолой [подробнее](/fmux.md)|
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | FanCurrentLimits | INTEGER ||
 | keyboard | FanCurrentLimits | INTEGER ||
