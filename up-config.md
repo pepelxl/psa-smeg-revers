@@ -180,7 +180,7 @@ _display - 0 - информация от функции отображается
 | drive | afil_push_family | INTEGER |номер строки|
 | drive | afil_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | artiv_push_present | BOOL |слежение за интервалом движения (кнопка)|![alt text](/image/artiv_p.bmp)|
+| drive | artiv_push_present | BOOL |слежение за интервалом движения (кнопка) Ограничение использования, см. rvv_rvvi_present|![alt text](/image/artiv_p.bmp)|
 | drive | artiv_push_family | INTEGER |номер строки|
 | drive | artiv_push_priority | INTEGER |порядковый номер в строке|
 ||||
@@ -221,7 +221,7 @@ _display - 0 - информация от функции отображается
 | drive | xvv_push_family | INTEGER |номер строки|
 | drive | xvv_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка)|![alt text](/image/rvv_p.bmp)|
+| drive | rvv_rvvi_present | BOOL |интеллектуальный регулятор скорости (кнопка). Пришла на замену artiv_push_present. Одновременное использование обеих клавиш не возможно. Хотя статусы над клавишами отображаются  верно, клавиши посылают один и тот же сигнал в can шину, а bsi обрабатывает его основываясь на свох кодировках.|![alt text](/image/rvv_p.bmp)|
 | drive | rvv_rvvi_push_family | INTEGER |номер строки|
 | drive | rvv_rvvi_push_priority | INTEGER |порядковый номер в строке|
 | drive | vhl_rvvi_type | INTEGER |Вставка управления дистанцией адаптивного круиз-контроля во вкладке задания скоростей(при нажатии кнопки MEM)<br> - Régulation de vitesse véhicule(обычный круиз - без вставки)<br> - Régulation de vitesse véhicule adaptée(вставка управления в секундах от 1 до 3)<br> - Régulation de vitesse véhicule adaptée sélectionnée(Вариант используется совместно с rvv_rvvi_present. Автоматическии отображает вставку при адаптивном круиз-контроле)<br>
