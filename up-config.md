@@ -387,7 +387,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Radiator_Grille_Lighting | BOOL |[не подтверждено]**Пункт в меню** [param19](/db_alerts.md#vhl_param_order)<br>"Подсветка решетки радиатора. (BSI2010 zone 23DF)|  
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
-| vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя|
+| vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя(BSI2010 zone 2353)|
 | vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param16](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. (BSI2010 zone 234C)|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
