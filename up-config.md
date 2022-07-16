@@ -389,12 +389,12 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя(BSI2010 zone 2353 value 1)|
 | vehicle_configuration | Other_Doors_Selectivity | BOOL |**Пункт в меню** [param8](/db_alerts.md#vhl_param_order)<br>Пду для дверей кабины(BSI2010 zone 2353 value 2)|
+| vehicle_configuration | Boot_Perm_Locking | BOOL |**Пункт в меню** [param18](db_alerts.md#vhl_param_order)<br>Открытие только багажника(BSI2010 zone 23A6)|
 | vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param16](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. (BSI2010 zone 234C)|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
 | vehicle_configuration | Auto_Headlights | BOOL ||
-| vehicle_configuration | Boot_Perm_Locking | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
 | vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освещения на левую полосу на шоссе. В теории требует поворотных фар и камеры, плюс возможность определения шоссе с картографических данных. Что она делает в голове при условии наличия отдельного пунктов меню(судя по таблицам)???|
