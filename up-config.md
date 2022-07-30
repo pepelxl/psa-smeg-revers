@@ -378,7 +378,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Rear_Park_Menu | BOOL |[не подтверждено]**Пункт в меню** [param1](/db_alerts.md#vhl_param_order)<br>Помощь при парковке(отключение парктроников)|
 | vehicle_configuration | Overtake_Help_Menu | BOOL |[не подтверждено]**Пункт в меню** [param2](/db_alerts.md#vhl_param_order)<br>Контроль мёртвых зон|<br>|
 ||||
-| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение|
+| vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение. (BSI2010 zone 2324 и/или 23AE)|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню** [param14](/db_alerts.md#vhl_param_order)<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
 | vehicle_configuration | Ambience_Lightning_Level | BOOL |[param22](/db_alerts.md#vhl_param_order) Ползунок яркости в пункте Ambience_Lightning<br>Используется, при диодной вежливой подсветке|
 | vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню** [param11](/db_alerts.md#vhl_param_order)<br>Дистанционное включение световых приборов|
@@ -397,7 +397,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
-| vehicle_configuration | Motorway_Lighting | BOOL |Технология расширения освещения на левую полосу на шоссе. В теории требует поворотных фар и камеры, плюс возможность определения шоссе с картографических данных. Что она делает в голове при условии наличия отдельного пунктов меню(судя по таблицам)???|
+| vehicle_configuration | Motorway_Lighting | BOOL ||
 | vehicle_configuration | Near_Obstacles_Detection | INTEGER ||
 | vehicle_configuration | Overtake_Help | INTEGER ||
 | vehicle_configuration | Remote_Doors_Locking | BOOL ||
