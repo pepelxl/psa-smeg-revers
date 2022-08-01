@@ -375,8 +375,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Collision_Risk_Menu | BOOL |**Пункт в меню** [param5](/db_alerts.md#vhl_param_order)<br>Сигнал о риске столкновения<br>Требуется радар в бампере ARTIV. (BSI2010 zone 23B9)|
 | vehicle_configuration | Auto_Brake_Collision_Menu | BOOL |[param6](/db_alerts.md#vhl_param_order) Чекбокс "Автоматическое экстренное торможение" в меню Collision_Risk_Menu|
 | vehicle_configuration | Urban_FARC | BOOL |**Пункт в меню** [param20](/db_alerts.md#vhl_param_order)<br>Автоматическое экстренное торможение<br>Требуется радар в бампере ARTIV|
-| vehicle_configuration | Rear_Park_Menu | BOOL |[не подтверждено]**Пункт в меню** [param1](/db_alerts.md#vhl_param_order)<br>Помощь при парковке(отключение парктроников)|
-| vehicle_configuration | Overtake_Help_Menu | BOOL |[не подтверждено]**Пункт в меню** [param2](/db_alerts.md#vhl_param_order)<br>Контроль мёртвых зон|<br>|
+| vehicle_configuration | Rear_Park_Menu | BOOL |**Пункт в меню** [param1](/db_alerts.md#vhl_param_order)[не подтверждено]<br>Помощь при парковке(отключение парктроников)|
+| vehicle_configuration | Overtake_Help_Menu | BOOL |**Пункт в меню** [param2](/db_alerts.md#vhl_param_order)[не подтверждено]<br>Контроль мёртвых зон|<br>|
 ||||
 | vehicle_configuration | Adaptable_Lightning | BOOL |**Пункт в меню** [param12](/db_alerts.md#vhl_param_order)<br>Адаптивное освещение. (BSI2010 zone 2324 и/или 23AE)|
 | vehicle_configuration | Ambience_Lightning | BOOL |**Пункт в меню** [param14](/db_alerts.md#vhl_param_order)<br>Мягкая подсветка салона<br>Используется, при наличии вежливой подсветки|
@@ -384,7 +384,8 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Welcome_Lighting | BOOL |**Пункт в меню** [param11](/db_alerts.md#vhl_param_order)<br>Дистанционное включение световых приборов|
 | vehicle_configuration | Courtesy_Lightning | BOOL |**Пункт в меню** [param10](/db_alerts.md#vhl_param_order)<br>Сопровождающее освещение|
 | vehicle_configuration | Diurnal_Headlights | BOOL |**Пункт в меню** [param13](/db_alerts.md#vhl_param_order)<br>Дневные ходовые огни|
-| vehicle_configuration | Radiator_Grille_Lighting | BOOL |[не подтверждено]**Пункт в меню** [param19](/db_alerts.md#vhl_param_order)<br>"Подсветка решетки радиатора. (BSI2010 zone 23DF)|  
+| vehicle_configuration | Radiator_Grille_Lighting | BOOL |**Пункт в меню** [param19](/db_alerts.md#vhl_param_order)[не подтверждено]<br>"Подсветка решетки радиатора. (BSI2010 zone 23DF)|  
+| vehicle_configuration | Auto_Headlights | BOOL |**Пункт в меню** [param9](/db_alerts.md#vhl_param_order)<br>Автоматическое включение дальнего света|
 ||||
 | vehicle_configuration | Back_Flap | BOOL |**Пункт в меню** [param15](/db_alerts.md#vhl_param_order)<br>Электропривод крышки багажника|
 | vehicle_configuration | Driver_Doors_Selectivity | BOOL |**Пункт в меню** [param17](/db_alerts.md#vhl_param_order)<br>ПДУ для двери водителя(BSI2010 zone 2353 value 1)|
@@ -394,7 +395,6 @@ _display - 0 - информация от функции отображается
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL ||
-| vehicle_configuration | Auto_Headlights | BOOL ||
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
 | vehicle_configuration | Motorway_Lighting | BOOL ||
