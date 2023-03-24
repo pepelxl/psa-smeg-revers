@@ -17,15 +17,16 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| Air_conditioning | AC_max_present | BOOL ||
-| Air_conditioning | AQS_present | BOOL ||
-| Air_conditioning | air_recycling_present | BOOL ||
-| Air_conditioning | bizone_mix | BOOL ||
-| Air_conditioning | mono_present | BOOL ||
-| Air_conditioning | rear_clim_present | BOOL ||
-| Air_conditioning | type_clim | INTEGER ||
-| Air_conditioning | type_dist | BOOL ||
-| Air_conditioning | typing_mode_present | BOOL ||
+| Air_conditioning | AC_max_present | BOOL |Наличие сенсорой клавиши "максимальное охлаждение"<br>0 - отсутствует<br>1 - присутствует|
+| Air_conditioning | AQS_present | BOOL |Наличие сенсорой клавиши "Автоматическая рециркуляция воздуха"<br>0 - отсутствует<br>1 - присутствует|
+| Air_conditioning | air_recycling_present | BOOL |Наличие сенсорой клавиши "рециркуляция воздуха"<br>0 - присутствует<br>1 - отсутствует(имеется физическая кнопка)|
+| Air_conditioning | mono_present | BOOL |Наличие сенсорой клавиши "монорежим"<br>0 - отсутствует<br>1 - присутствует|
+| Air_conditioning | rear_clim_present | BOOL |Наличие сенсорой клавиши "задний кондиционер"<br>0 - отсутствует<br>1 - присутствует|
+| Air_conditioning | typing_mode_present | BOOL |Наличие ползунка с выбором интенсивности(soft-midle-hard) <br>0 - отсутствует<br>1 - присутствует|
+| Air_conditioning | type_clim | INTEGER |Тип климатической установки<br>0 - Chauffage<br>1 - Refregeration manuelle<br>2 - Refregeration regulee<br>3 - Refregeration automatique|
+| Air_conditioning | type_dist | BOOL |Наличие управления распределения воздуха с двух сторон(требуется наличие двух заслонок распределения воздуха)<br>0 - один привод<br>1- два привода|
+| Air_conditioning | bizone_mix | BOOL |Наличие управления регулировкой температуры с двух сторон(требуется наличие двух заслонок смешивания температуры)<br>0 - один привод<br>1 - два привода |
+
 
 # Bluetooth
 
