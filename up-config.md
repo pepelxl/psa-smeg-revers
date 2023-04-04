@@ -297,7 +297,7 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| navigation | Diag_SpeedLimit_Activation | BOOL ||
+| navigation | Diag_SpeedLimit_Activation | BOOL |передача в can информации об оганичении скорости с данных картографии|
 | navigation | Diag_SpeedTrap_Activation | BOOL ||
 | navigation | Exp_Nav_With_Street_Name | BOOL ||
 | navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>информация о перекрёстках|
@@ -360,7 +360,7 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| upgrade | HarmoniesChecked | INTEGER |Назначение не известно. Предположительно это версия кодировочной страницы(привязана жостко к версии прошивки(1-10))|
+| upgrade | HarmoniesChecked | INTEGER ||
 
 # Конфигурация автомобиля
   Для отображения опций в меню недостаточно активации опций. Нужна соответствующая поддержка прошивкой блока BSI и активное состояние опции в блоке BSI.
@@ -395,7 +395,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Driver_Welcome | BOOL |**Пункт в меню** [param16](/db_alerts.md#vhl_param_order)<br>"Встреча" водителя. Исполнительным устройством является блок памяти сиденья водителя. (BSI2010 zone 234C)|
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
-| vehicle_configuration | Audio_Harm | BOOL ||
+| vehicle_configuration | Audio_Harm | BOOL |Пункт настроек звуковых аккампониментов(четыре темы звучания в настройках звука)|
 | vehicle_configuration | COE_Locking_Mode | BOOL ||
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
 | vehicle_configuration | Motorway_Lighting | BOOL ||
@@ -408,7 +408,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
-| vehicle_configuration | VMFBlackPanel | BOOL ||
+| vehicle_configuration | VMFBlackPanel | BOOL |Отправка статуса пробуждения магнитолы в can при косании экрана<br>0 - при косании экрана в ржиме darkmode пробуждается только магнитола<br>1 - при косании экрана автомобиль выходит из darkmode(пробуждается приборка)|
 | vehicle_configuration | VMFCMBColor | BOOL ||
 | vehicle_configuration | VMFCMBConf | BOOL ||
 | vehicle_configuration | VMFCourtLight | BOOL ||
