@@ -297,7 +297,7 @@ _display - 0 - информация от функции отображается
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| navigation | Diag_SpeedLimit_Activation | BOOL |передача в can информации об оганичении скорости с данных картографии|
+| navigation | Diag_SpeedLimit_Activation | BOOL |информация об оганичении скорости с данных картографии|
 | navigation | Diag_SpeedTrap_Activation | BOOL ||
 | navigation | Exp_Nav_With_Street_Name | BOOL ||
 | navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>информация о перекрёстках|
