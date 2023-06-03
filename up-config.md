@@ -408,7 +408,7 @@ _display - 0 - информация от функции отображается
 | vehicle_configuration | Windows_Partial_Opening | BOOL ||
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
-| vehicle_configuration | VMFBlackPanel | BOOL |Отправка статуса пробуждения магнитолы в can при косании экрана<br>0 - при косании экрана в ржиме darkmode пробуждается только магнитола<br>1 - при косании экрана автомобиль выходит из darkmode(пробуждается приборка)|
+| vehicle_configuration | VMFBlackPanel | BOOL ||
 | vehicle_configuration | VMFCMBColor | BOOL ||
 | vehicle_configuration | VMFCMBConf | BOOL ||
 | vehicle_configuration | VMFCourtLight | BOOL ||
