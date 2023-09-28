@@ -101,7 +101,7 @@
 | diag | Telecoding_date | INTEGER |3/3 байт хранит дату последней кодировки(год) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Telecoding_site | INTEGER |служба, которая кодировала(обычно 0xFD(послепродажное кодирование)) [подробнее](https://github.com/ludwig-v/arduino-psa-diag#kwp)|
 | diag | Vehicle_Brand | INTEGER |Бренд автомобиля<br>1 peugeot<br>2 citroen<br>3 ds|
-| diag | Vin_crypted | BLOB |Ячейка содержит закриптованное 17-значное число vin номера атомобиля методом rsa. Вместе с ячейками supervisor служит для идентификации автомобиля. Если хранимый vin не совподает с vin записанным в bsi, срабатывает защита(писк в динамики)|
+| diag | Vin_crypted | BLOB |Ячейка содержит закриптованное 17-значное число vin номера атомобиля методом rsa. Вместе с ячейками supervisor служит для идентификации автомобиля. Если хранимый vin не совподает с vin записанным в bsi, срабатывает защита(писк в динамики). [Алгоритм.](https://github.com/pepelxl/psa-smeg-revers/tree/main/vin%20crypt)|
 
 # Display
 
