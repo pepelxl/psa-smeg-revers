@@ -300,7 +300,7 @@ _display - 0 - информация от функции отображается
 | navigation | Diag_SpeedLimit_Activation | BOOL |информация об оганичении скорости с данных картографии|
 | navigation | Diag_SpeedTrap_Activation | BOOL |информация об зонах риска<br>меню не исчезает, но всегда не активное, также как и когда нет базы|
 | navigation | Exp_Nav_With_Street_Name | BOOL ||
-| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>информация о перекрёстках|
+| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>Junction View = режим магистралей(отображение движения по полосам) |
 | navigation | Exp_Nav_Without_Street_Name | BOOL ||
 | navigation | HW_GPS_Reset | BOOL ||
 | navigation | LocInitDiag | BLOB ||
