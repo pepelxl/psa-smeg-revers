@@ -19,7 +19,18 @@ TELEMAT(smeg5) = [0x01C](/can.md#id-0x01c-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D
 0x524, 
 0x5E4, 
 0x664  
-COMBINE(cirocco for smeg) = 0x217, 0x257, 0x269, 0x2D7, 0x2DC, 0x2E7, 0x317, 0x31C, 0x3A7, 0x51F, 0x5DF, 0x65F  
+COMBINE(cirocco for smeg) = 0x217, 
+0x257, 
+[0x269]/main/can.md#id-0x229-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%B3%D1%83-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
+0x2D7, 
+[0x2DC](/can.md#id-0x328-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%B3%D1%83-%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D0%B4%D0%B8%D1%81%D0%BF%D0%BB%D0%B5%D0%B9-0x2dc-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
+0x2E7, 
+0x317, 
+0x31C,
+0x3A7, 
+0x51F, 
+0x5DF, 
+0x65F  
 
 ## Сигналы передаваемые по шине info
 ### ID 0x260, источник BSI, длина зависит от прошивки bsi, частота 500мс  
