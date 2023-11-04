@@ -294,14 +294,14 @@ _display - 0 - информация от функции отображается
 | map | DRM | BOOL |Отключает проверку ключа при установке новых версий карт|
 
 # Навигация
-
+Exp_Nav - вывод навигационных подсказок в CAN шину. Состоит из основного пакета(ID [0x169](/can.md#id-0x169-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%B3%D1%83-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-1000%D0%BC%D1%81)) и расширеного(ID [0x229](/can.md#id-0x229-%D0%B8%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-%D0%B3%D1%83-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)). По сути опции надо воспринимать как список с одиночным выбором.  
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| navigation | Diag_SpeedLimit_Activation | BOOL |информация об оганичении скорости с данных картографии|
-| navigation | Diag_SpeedTrap_Activation | BOOL |информация об зонах риска<br>меню не исчезает, но всегда не активное, также как и когда нет базы|
-| navigation | Exp_Nav_With_Street_Name | BOOL ||
-| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can<br>Junction View = режим магистралей(отображение движения по полосам) |
-| navigation | Exp_Nav_Without_Street_Name | BOOL ||
+| navigation | Diag_SpeedLimit_Activation | BOOL |информация об оганичении скорости с данных картографии(CAN ID 0x1E9)|
+| navigation | Diag_SpeedTrap_Activation | BOOL |информация об зонах риска<br>меню не исчезает, но всегда не активное, также как и когда нет базы(CAN ID 0x1E9)|
+| navigation | Exp_Nav_With_Street_Name | BOOL |передача навигационных данных в can (ID 0x169 + 0x229), режим магистралей заменяется обычными перекрёстками|
+| navigation | Exp_Nav_With_Street_Name_Junction_View | BOOL |передача навигационных данных в can (ID 0x169 + 0x229)<br>Junction View = режим магистралей(отображение движения по полосам) |
+| navigation | Exp_Nav_Without_Street_Name | BOOL |передача навигационных данных в can (ID 0x169), расширенные данные не заменяются стандартными указателями и просто не отправляются в can|
 | navigation | HW_GPS_Reset | BOOL ||
 | navigation | LocInitDiag | BLOB ||
 
