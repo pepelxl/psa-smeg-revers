@@ -46,7 +46,7 @@ Config[0]=Bodywork_Type<br>
 | 0x010400	| A94	| | peugeot 2008 |
 | 0x080100	| B71	| | citroen C4 II |
 | 0x080500	| B75	| | citroen DS4 |
-| 0x090100	| B81	| |  |
+| 0x090100	| B81	| | DS5 |
 | 0x040504	| A55MV	| |  |
 | 0x040604	| A56MV	| |  |
 | 0x010404	| A94MV	| | peugeot 2008 1 рестайлинг |
@@ -57,7 +57,7 @@ Config[0]=Bodywork_Type<br>
 | 0x080301	| B73M	| | citroen C4 II mercosur |
 | 0x08030e	| B732RMV	| |  |
 | 0x080306	| B731RMV	| |  |
-| 0x030302	| T73R	| | peugeot 408 |
+| 0x030302	| T73R	| | peugeot 408 Russie |
 
 
 
