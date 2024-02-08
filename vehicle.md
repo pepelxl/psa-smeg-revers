@@ -39,8 +39,8 @@ Config[0]=Bodywork_Type<br>
 | 0x030101	| T71A	| | peugeot 308 Argentina |
 | 0x030301	| T73A	| | peugeot 408 Argentina |
 | 0x030302	| T73R	| | peugeot 408 Russia|
-| 0x040100	| A51	| |  |
-| 0x040101	| Ai51	| |  |
+| 0x040100	| A51	| | citroen C3 II |
+| 0x040101	| Ai51	| | cirtoen C3 II mercosur |
 | 0x040500	| A55	| | DS3 |
 | 0x040504	| A55MV	| | DS3 1 рестайлинг|
 | 0x040600	| A56	| |  |
