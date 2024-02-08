@@ -36,7 +36,7 @@ Config[0]=Bodywork_Type<br>
 | 0x010404	| A94MV	| | peugeot 2008 1 рестайлинг |
 | 0x020200	| X72	| | citroen C5 II универсал |
 | 0x020300	| X73	| | citroen C5 II седан|
-| 0x030101	| T71A	| | |
+| 0x030101	| T71A	| | peugeot 308 аргентина|
 | 0x030301	| T73A	| |  |
 | 0x030302	| T73R	| | peugeot 408 |
 | 0x040100	| A51	| |  |
