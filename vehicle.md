@@ -55,7 +55,6 @@ Config[0]=Bodywork_Type<br>
 | 0x010401	| Ai94	| |  |
 | 0x080302	| B73R	| | citroen C4 II Russie |
 | 0x080301	| B73M	| | citroen C4 II mercosur |
-
 | 0x08030e	| B732RMV	| |  |
 | 0x080306	| B731RMV	| |  |
 | 0x030302	| T73R	| | peugeot 408 |
