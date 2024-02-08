@@ -37,7 +37,9 @@ Config[0]=Bodywork_Type<br>
 | 0x020300	| X73	| | citroen C5 II седан|
 | 0x040100	| A51	| |  |
 | 0x040101	| Ai51	| |  |
-| 0x040500	| A55	| |  |
+| 0x040500	| A55	| | DS3 |
+| 0x040504	| A55MV	| | DS3 1 рестайлинг|
+| 0x040604	| A56MV	| |  |
 | 0x040801	| Ai58R	| |  |
 | 0x030301	| T73A	| |  |
 | 0x040600	| A56	| |  |
@@ -51,8 +53,6 @@ Config[0]=Bodywork_Type<br>
 | 0x080100	| B71	| | citroen C4 II |
 | 0x080500	| B75	| | citroen DS4 |
 | 0x090100	| B81	| | DS5 |
-| 0x040504	| A55MV	| |  |
-| 0x040604	| A56MV	| |  |
 | 0x080302	| B73R	| | citroen C4 II Russie |
 | 0x080301	| B73M	| | citroen C4 II mercosur |
 | 0x08030e	| B732RMV	| |  |
