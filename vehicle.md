@@ -43,8 +43,8 @@ Config[0]=Bodywork_Type<br>
 | 0x040101	| Ai51	| | cirtoen C3 II mercosur |
 | 0x040500	| A55	| | DS3 |
 | 0x040504	| A55MV	| | DS3 1 рестайлинг|
-| 0x040600	| A56	| | DS3 cabrio ? |
-| 0x040604	| A56MV	| | DS3 cabrio 1 рестайлинг ? |
+| 0x040600	| A56	| | DS3 cabrio |
+| 0x040604	| A56MV	| | DS3 cabrio 1 рестайлинг |
 | 0x040801	| Ai58R	| | citroen C3 aircross mercosur restyling |
 | 0x070800	| B981	| _1 |  |
 | 0x070810	| B981	| _2 |  |
