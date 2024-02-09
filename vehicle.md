@@ -46,10 +46,10 @@ Config[0]=Bodywork_Type<br>
 | 0x040600	| A56	| | DS3 cabrio |
 | 0x040604	| A56MV	| | DS3 cabrio 1 рестайлинг |
 | 0x040801	| Ai58R	| | citroen C3 aircross mercosur restyling |
-| 0x070800	| B981	| _1 |  |
+| 0x070800	| B981	| _1 | citroen berlingo |
 | 0x070810	| B981	| _2 |  |
-| 0x070900	| B991	| _1 |  |
-| 0x070908	| B992	| |  |
+| 0x070900	| B991	| _1 | peugeot partner |
+| 0x070908	| B992	| | peugeot tepee |
 | 0x070910	| B991	| _2 |  |
 | 0x080100	| B71	| | citroen C4 II |
 | 0x080500	| B75	| | citroen DS4 |
