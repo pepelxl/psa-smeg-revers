@@ -21,16 +21,16 @@
 
 
 Из прошивки 6.4.A.R10
-| № | Имя | Где используется | Контенер |
-|:---|:---|:---|:---|
-|6|SQUARE|peugeot|Zone=<br>Pozition=|
-|7|ESSENTIEL|citroen|Zone=<br>Pozition=|
-|8|REDLINE|peugeot|Zone=3<br>Pozition=1|
-|9|WARMLIGHT|peugeot|Zone=3<br>Pozition=2|
-|12|AMETHYSTE|DS|Zone=<br>Pozition=|
-|13|RUBIS|DC|Zone=4<br>Pozition=1|
-|14|C-RED|citroen|Zone=1<br>Pozition=1|
-|15|BLUE SQUARE|peugeot|Zone=2<br>Pozition=1|
-|16|SAPHIR|DS|Zone=4<br>Pozition=2|
-|17|C-BLUE|citroen|Zone=1<br>Pozition=2|
+| № | Имя | Где используется | Контенер | CAN |
+|:---|:---|:---|:---|:---|
+|6|SQUARE|peugeot|Zone=<br>Pozition=|AEE2004|
+|7|ESSENTIEL|citroen|Zone=<br>Pozition=|AEE2004|
+|8|REDLINE|peugeot|Zone=3<br>Pozition=1|AEE2010|
+|9|WARMLIGHT|peugeot|Zone=3<br>Pozition=2|AEE2010|
+|12|AMETHYSTE|DS|Zone=<br>Pozition=|AEE2004|
+|13|RUBIS|DC|Zone=4<br>Pozition=1|AEE2010|
+|14|C-RED|citroen|Zone=1<br>Pozition=1|AEE2010|
+|15|BLUE SQUARE|peugeot|Zone=2<br>Pozition=1|AEE2010|
+|16|SAPHIR|DS|Zone=4<br>Pozition=2|AEE2010|
+|17|C-BLUE|citroen|Zone=1<br>Pozition=2|AEE2010|
 
