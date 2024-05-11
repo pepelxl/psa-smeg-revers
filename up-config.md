@@ -248,6 +248,14 @@ _display - 0 - информация от функции отображается
 | drive | mpd_push_present | BOOL |Предположение, так как отображения добится не смог. Речь скорее всего идёт о Mesure de place disponible(Система измерения парковочного места)(кнопка) аргумент кодирования присутствует в smeg и отсутствует в smeg plus|![alt text](/image/mpd_p.bmp)|
 | drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_priority | INTEGER |порядковый номер в строке|
+||||
+| drive | idvr_accident_push_family<br>Only smegIV2 | INTEGER |  |
+| drive | idvr_accident_push_present<br>Only smegIV2 | BOOL |  |
+| drive | idvr_accident_push_priority<br>Only smegIV2 | INTEGER |  |
+| drive | idvr_daily_push_family<br>Only smegIV2 | INTEGER |  |
+| drive | idvr_daily_push_present<br>Only smegIV2 | BOOL |  |
+| drive | idvr_daily_push_priority<br>Only smegIV2 | INTEGER |  |
+| drive | tempo_display_aas<br>Only smegIV2 | INTEGER |  |
 
 # General
 
@@ -415,9 +423,9 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | VMFFirstPage | BOOL ||
 | vehicle_configuration | VMFFuncState | BOOL ||
 | vehicle_configuration | VMFProfile | BOOL ||
-| vehicle_configuration | Driver_Restriction_Activate<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Activate<br>Only smegIV2 | INTEGER ||
 | vehicle_configuration | Driver_Restriction_Cfg<br>Only smegIV2 | BOOL ||
-| vehicle_configuration | Driver_Restriction_Desactivate<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Desactivate<br>Only smegIV2 | INTEGER ||
 | vehicle_configuration | Driver_Restriction_Push<br>Only smegIV2 | BOOL ||
 | vehicle_configuration | Driver_Restriction_Reinit<br>Only smegIV2 | BOOL ||
 | vehicle_configuration | option_vhl<br>Only smegIV2 | BOOL ||
