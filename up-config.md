@@ -430,7 +430,8 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Driver_Restriction_Reinit<br>Only smegIV2 | BOOL ||
 | vehicle_configuration | option_vhl<br>Only smegIV2 | BOOL ||
 
-# Настройки дополнительных подключений
+# Настройки дополнительных подключений  
+В прошивке 6.4 отсутствует обрашение к аргументам, кроме последних двух.  
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | AUX | Mirror_Link_Device_Id<br>Only smegIV2 | BOOL |  |
