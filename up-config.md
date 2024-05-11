@@ -415,3 +415,26 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | VMFFirstPage | BOOL ||
 | vehicle_configuration | VMFFuncState | BOOL ||
 | vehicle_configuration | VMFProfile | BOOL ||
+| vehicle_configuration | Driver_Restriction_Activate<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Cfg<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Desactivate<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Push<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | Driver_Restriction_Reinit<br>Only smegIV2 | BOOL ||
+| vehicle_configuration | option_vhl<br>Only smegIV2 | BOOL ||
+
+# Настройки дополнительных подключений
+|Секция|Имя|Тип|Значения|
+|:---|:---|:---|---|
+| AUX | Mirror_Link_Device_Id<br>Only smegIV2 | BOOL |  |
+| AUX | Mirror_Link_Friendlyname<br>Only smegIV2 | BOOL |  |
+| AUX | Mirror_Link_Manufacturer<br>Only smegIV2 | BOOL |  |
+| AUX | Mirror_Link_On_Off<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Apple_Dipo<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Apple_Dipo_On_Off<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Apple_Siri<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Mirror_Link<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Others<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Samsung_Svoice<br>Only smegIV2 | BOOL |  |
+| AUX | SVR_Speed_Limit<br>Only smegIV2 | INTEGER | Скорость, при которой отключается кнопка голосового помошника (Bluetooth соединение) |
+| AUX | SVR_Speed_Limit_Activation<br>Only smegIV2 | BOOL | Флаг активности параметра SVR_Speed_Limit<br>0 - скорость не учитывается<br>1 - нажатие на кнопку вызывает сообщение о превышении заданой скорости |
+
