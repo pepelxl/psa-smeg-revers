@@ -414,7 +414,7 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL |Форма выбора скоростного режима вызываемая клавишей MEM(круиз контроль)(BSI2010 zone 23C0)|
 | vehicle_configuration | Speed_limiter_conf | BOOL |Форма установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая. (BSI2010 zone 23C0/233F)|
-| vehicle_configuration | Windows_Partial_Opening | BOOL |аргумент отсутствует в прошивке 6.4|
+| vehicle_configuration | Windows_Partial_Opening | BOOL |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
 | vehicle_configuration | VMFBlackPanel | BOOL ||
@@ -431,19 +431,18 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Driver_Restriction_Reinit<br>Only smegIV2 | BOOL ||
 
 # Настройки дополнительных подключений  
-В прошивке 6.4 отсутствует обрашение к аргументам, кроме последних двух.  
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| AUX | Mirror_Link_Device_Id<br>Only smegIV2 | BOOL |  |
-| AUX | Mirror_Link_Friendlyname<br>Only smegIV2 | BOOL |  |
-| AUX | Mirror_Link_Manufacturer<br>Only smegIV2 | BOOL |  |
-| AUX | Mirror_Link_On_Off<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Apple_Dipo<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Apple_Dipo_On_Off<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Apple_Siri<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Mirror_Link<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Others<br>Only smegIV2 | BOOL |  |
-| AUX | SVR_Samsung_Svoice<br>Only smegIV2 | BOOL |  |
+| AUX | Mirror_Link_Device_Id<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | Mirror_Link_Friendlyname<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | Mirror_Link_Manufacturer<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | Mirror_Link_On_Off<br>Only smegIV2 | BOOL | аргумент не найден в прошивке 6.4 |
+| AUX | SVR_Apple_Dipo<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | SVR_Apple_Dipo_On_Off<br>Only smegIV2 | BOOL | аргумент не найден в прошивке 6.4 |
+| AUX | SVR_Apple_Siri<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | SVR_Mirror_Link<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | SVR_Others<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
+| AUX | SVR_Samsung_Svoice<br>Only smegIV2 | BOOL | аргумент не используется в прошивке 6.4 |
 | AUX | SVR_Speed_Limit<br>Only smegIV2 | INTEGER | Скорость, при которой отключается кнопка голосового помошника (Bluetooth соединение) |
 | AUX | SVR_Speed_Limit_Activation<br>Only smegIV2 | BOOL | Флаг активности параметра SVR_Speed_Limit<br>0 - скорость не учитывается<br>1 - нажатие на кнопку вызывает сообщение о превышении заданой скорости |
 
