@@ -407,7 +407,7 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Audio_Harm | BOOL |Пункт настроек звуковых аккампониментов(четыре темы звучания в настройках звука)|
 | vehicle_configuration | COE_Locking_Mode | BOOL |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
-| vehicle_configuration | Motorway_Lighting | BOOL ||
+| vehicle_configuration | Motorway_Lighting | BOOL |аргумент не используется в прошивке 6.4|
 | vehicle_configuration | Near_Obstacles_Detection | INTEGER |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Overtake_Help | INTEGER ||
 | vehicle_configuration | Remote_Doors_Locking | BOOL |аргумент не найден в прошивке 6.4|
