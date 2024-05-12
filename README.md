@@ -15,14 +15,14 @@ SMEGIV2 – ARM Cortex 1x800Mgz little-endian
 Ссылка на варианты кодировок для 6 оси https://drive.google.com/file/d/1EIV0orKCzKsZSx1PM2rB4obmCjci3UbF/view
 
 
-Устроийтво содержит файловые разделы dosfs:<br>
-  /SYSTEM_DATA<br>
-  /SYSTEM_TMP_DATA<br>
-  /USER_DATA<br>
-  /USER_DATA_BACKUP<br>
+Устройство содержит файловые разделы dosfs:  
+  /SYSTEM_DATA  
+  /SYSTEM_TMP_DATA  
+  /USER_DATA  
+  /USER_DATA_BACKUP  
   
-  Backup содержит резервные копии файлов для востановления системы в случаии неисправности основных файлов в USER_DATA.<br>
-  /USER_DATA/user_data/Audio пользовательские данные настроек радио<br>
-  /USER_DATA/user_data/Nav пользовательские данные настроек навигации<br>
-  /USER_DATA/user_data/T2BT пользовательские данные настроек телефона<br>
-  
+  Backup содержит резервные копии файлов для востановления системы в случаии неисправности основных файлов в USER_DATA.  
+  /USER_DATA/user_data/Audio пользовательские данные настроек радио  
+  /USER_DATA/user_data/Nav пользовательские данные настроек навигации  
+  /USER_DATA/user_data/T2BT пользовательские данные настроек телефона  
+  Тоесть при загрузке сначала проверяются sql базы в USER_DATA. Если базы не исправны, то проверяются базы в /USER_DATA_BACKUP. Если базы и там не исправны, то создаётся новая используя макет из SYSTEM используя значения по умолчанию.
