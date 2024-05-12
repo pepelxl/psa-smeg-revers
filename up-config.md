@@ -249,12 +249,12 @@ _display - 0 - информация от функции отображается
 | drive | mpd_push_family | INTEGER |номер строки|
 | drive | mpd_push_priority | INTEGER |порядковый номер в строке|
 ||||
-| drive | idvr_accident_push_family<br>Only smegIV2 | INTEGER |  |
-| drive | idvr_accident_push_present<br>Only smegIV2 | BOOL |  |
-| drive | idvr_accident_push_priority<br>Only smegIV2 | INTEGER |  |
-| drive | idvr_daily_push_family<br>Only smegIV2 | INTEGER |  |
-| drive | idvr_daily_push_present<br>Only smegIV2 | BOOL |  |
-| drive | idvr_daily_push_priority<br>Only smegIV2 | INTEGER |  |
+| drive | idvr_accident_push_family<br>Only smegIV2 | INTEGER | номер строки |
+| drive | idvr_accident_push_present<br>Only smegIV2 | BOOL | Автозапись ДТП (кнопка) |![alt text](/image/idrv_p.png)|
+| drive | idvr_accident_push_priority<br>Only smegIV2 | INTEGER | порядковый номер в строке |
+| drive | idvr_daily_push_family<br>Only smegIV2 | INTEGER | номер строки |
+| drive | idvr_daily_push_present<br>Only smegIV2 | BOOL | Запись видео непрерывно (кнопка) |![alt text](/image/idrv_p.png)|
+| drive | idvr_daily_push_priority<br>Only smegIV2 | INTEGER | порядковый номер в строке |
 | drive | tempo_display_aas<br>Only smegIV2 | INTEGER |  |
 
 # General
