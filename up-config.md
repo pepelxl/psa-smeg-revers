@@ -413,7 +413,7 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Securoscope | BOOL ||
 | vehicle_configuration | Speed_Limiter_Stop | BOOL |Форма выбора скоростного режима вызываемая клавишей MEM(круиз контроль)(BSI2010 zone 23C0)|
 | vehicle_configuration | Speed_limiter_conf | BOOL |Форма установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая. (BSI2010 zone 23C0/233F)|
-| vehicle_configuration | Windows_Partial_Opening | BOOL ||
+| vehicle_configuration | Windows_Partial_Opening | BOOL |аргумент отсутствует в прошивке 6.4|
 | vehicle_configuration | VMFAlerts | BOOL ||
 | vehicle_configuration | VMFAlertsCheck | BOOL ||
 | vehicle_configuration | VMFBlackPanel | BOOL ||
