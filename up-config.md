@@ -405,13 +405,13 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 ||||
 | vehicle_configuration | AsrPlus | BOOL ||
 | vehicle_configuration | Audio_Harm | BOOL |Пункт настроек звуковых аккампониментов(четыре темы звучания в настройках звука)|
-| vehicle_configuration | COE_Locking_Mode | BOOL ||
+| vehicle_configuration | COE_Locking_Mode | BOOL |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Interactive_Form | BOOL |Кнопка Интерактивное руководство (инструкция по эксплуатации)|
 | vehicle_configuration | Motorway_Lighting | BOOL ||
-| vehicle_configuration | Near_Obstacles_Detection | INTEGER ||
+| vehicle_configuration | Near_Obstacles_Detection | INTEGER |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Overtake_Help | INTEGER ||
-| vehicle_configuration | Remote_Doors_Locking | BOOL ||
-| vehicle_configuration | Securoscope | BOOL ||
+| vehicle_configuration | Remote_Doors_Locking | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | Securoscope | BOOL |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Speed_Limiter_Stop | BOOL |Форма выбора скоростного режима вызываемая клавишей MEM(круиз контроль)(BSI2010 zone 23C0)|
 | vehicle_configuration | Speed_limiter_conf | BOOL |Форма установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая. (BSI2010 zone 23C0/233F)|
 | vehicle_configuration | Windows_Partial_Opening | BOOL |аргумент не найден в прошивке 6.4|
