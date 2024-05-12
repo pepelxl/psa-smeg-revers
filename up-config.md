@@ -415,15 +415,15 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Speed_Limiter_Stop | BOOL |Форма выбора скоростного режима вызываемая клавишей MEM(круиз контроль)(BSI2010 zone 23C0)|
 | vehicle_configuration | Speed_limiter_conf | BOOL |Форма установки памяти скоросных режимов для круизконтроля и ограничителя. Если отключено, то сенсорная клавиша rlvv_push_present серая. (BSI2010 zone 23C0/233F)|
 | vehicle_configuration | Windows_Partial_Opening | BOOL |аргумент не найден в прошивке 6.4|
-| vehicle_configuration | VMFAlerts | BOOL ||
-| vehicle_configuration | VMFAlertsCheck | BOOL ||
-| vehicle_configuration | VMFBlackPanel | BOOL ||
-| vehicle_configuration | VMFCMBColor | BOOL ||
-| vehicle_configuration | VMFCMBConf | BOOL ||
-| vehicle_configuration | VMFCourtLight | BOOL ||
-| vehicle_configuration | VMFFirstPage | BOOL ||
-| vehicle_configuration | VMFFuncState | BOOL ||
-| vehicle_configuration | VMFProfile | BOOL ||
+| vehicle_configuration | VMFAlerts | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFAlertsCheck | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFBlackPanel | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFCMBColor | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFCMBConf | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFCourtLight | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFFirstPage | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFFuncState | BOOL |аргумент не найден в прошивке 6.4|
+| vehicle_configuration | VMFProfile | BOOL |аргумент не найден в прошивке 6.4|
 | vehicle_configuration | Driver_Restriction_Activate<br>Only smegIV2 | INTEGER ||
 | vehicle_configuration | Driver_Restriction_Cfg<br>Only smegIV2 | BOOL ||
 | vehicle_configuration | Driver_Restriction_Desactivate<br>Only smegIV2 | INTEGER ||
