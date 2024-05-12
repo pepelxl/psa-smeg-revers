@@ -377,6 +377,7 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 |:---|:---|:---|---|
 | vehicle_configuration | Vehicle_Type | INTEGER |Модель автомобиля [подробнее](/vehicle.md)|
 | vehicle_configuration | Bodywork_Type | INTEGER |Тип кузова автомобиля [подробнее](/vehicle.md)|
+| vehicle_configuration | option_vhl<br>Only smegIV2 | INTEGER |уточнение кузова автомобиля [подробнее](/vehicle.md)|
 ||||
 | vehicle_configuration | Auto_Rear_View | BOOL |**Пункт в меню** [param0](/db_alerts.md#vhl_param_order)<br>Автоматический наклон зеркала при движением задним ходом|
 | vehicle_configuration | Auto_Rear_Wiper | BOOL |**Пункт в меню** [param7](/db_alerts.md#vhl_param_order)<br>Включение очистителя заднего стекла при движении задним ходом|
@@ -428,7 +429,6 @@ Exp_Nav - вывод навигационных подсказок в CAN шин
 | vehicle_configuration | Driver_Restriction_Desactivate<br>Only smegIV2 | INTEGER ||
 | vehicle_configuration | Driver_Restriction_Push<br>Only smegIV2 | BOOL ||
 | vehicle_configuration | Driver_Restriction_Reinit<br>Only smegIV2 | BOOL ||
-| vehicle_configuration | option_vhl<br>Only smegIV2 | BOOL ||
 
 # Настройки дополнительных подключений  
 В прошивке 6.4 отсутствует обрашение к аргументам, кроме последних двух.  
