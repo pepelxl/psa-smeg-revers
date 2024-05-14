@@ -25,7 +25,7 @@
 |SW_OPTION_CAM_EPG||
 |SW_OPTION_SMARTAPPS||
 |SW_OPTION_TMC_ENCRYPTED<br>SMEGIV2||
-|SW_OPTION_DLT<br>SMEGIV2|скорее всего - debug log trace|
+|SW_OPTION_DLT<br>SMEGIV2|скорее всего - debug log trace<br>всегда выключено SW_FLAG|
 |SW_OPTION_MAP_3D<br>SMEGIV2||
 |SW_OPTION_MIRROR_LINK<br>SMEGIV2|технология Mirror Link<br>0 - предложение купить<br>1 - активно|
 |SW_OPTION_IPOD_OUT<br>SMEGIV2|технология CarPlay<br>0 - предложение купить<br>1 - активно|
@@ -38,7 +38,7 @@
 |SW_OPTION_FMUX<br>SMEG+||
 |SW_OPTION_PICTURE<br>SMEG+||
 |SW_OPTION_TMC<br>SMEG+||
-|SW_OPTION_EUROPE|региональная пренадлежность|
+|SW_OPTION_EUROPE|региональная принадлежность|
 |SW_OPTION_JAPAN|региональная принадлежность|
 |SW_OPTION_SOUTH_AMERICA|региональная принадлежность|
 |SW_OPTION_ASIA_AND_CHINA|региональная принадлежность|
