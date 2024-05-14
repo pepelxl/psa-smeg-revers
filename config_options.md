@@ -5,18 +5,20 @@
 
 |Имя|Значение|
 |---|---|
-|SW_OPTION_USB||
+|SW_OPTION_USB|Проигрывание музыки с флешки|
 |SW_OPTION_AUDIO_AUX|поддержка аналогово аудиовхода|
 |SW_OPTION_VIDEO_AUX<br>SMEG+||
 |SW_OPTION_VIDEO<br>SMEG+||
-|SW_OPTION_BT||
-|SW_OPTION_BT_A2DP||
+|SW_OPTION_BT|поддержка модуля bluetooth<br>отключается всё, что связано с bluetooth|
+|SW_OPTION_BT_A2DP|поддержка профиля воспроизведения музыки через bluetooth|
 |SW_OPTION_BT_DUN<br>SMEG+||
 |SW_OPTION_CDC|поддержка внешнего CD привода|
 |SW_OPTION_CLIM|поддержка меню климатконтроля|
 |SW_OPTION_AAS||
 |SW_OPTION_AVR||
-|SW_OPTION_INTERNET||
+|SW_OPTION_INTERNET|поддержка модуля браузера<br>при выключении отключаются все функции связаные с сетевой активностью|
+|SW_OPTION_WIFI<br>SMEGIV2|поддержка модуля WIFI<br>отключается всё, что связано с WIFI|
+|SW_OPTION_WEB<br>SMEGIV2|поддержка клиенского браузера<br>при отключении отключается браузер, сетевые соедиения по wifi и bluetooth|
 |SW_OPTION_JUKEBOX|внутренняя библитека музыкальных файлов|
 |SW_OPTION_LVDS_EXPORT|В smeg+ активирует второй вывод и убирает верхнее меню статусбара|
 |SW_OPTION_JOURNALINE||
@@ -30,8 +32,6 @@
 |SW_OPTION_MIRROR_LINK<br>SMEGIV2|технология Mirror Link<br>0 - предложение купить<br>1 - активно|
 |SW_OPTION_IPOD_OUT<br>SMEGIV2|технология CarPlay<br>0 - предложение купить<br>1 - активно|
 |SW_OPTION_AAP<br>SMEGIV2|технология Android Auto<br>всегда выключено SW_FLAG|
-|SW_OPTION_WIFI<br>SMEGIV2||
-|SW_OPTION_WEB<br>SMEGIV2||
 |SW_OPTION_PMS<br>SMEGIV2||
 |SW_OPTION_USER_GUIDE<br>SMEGIV2||
 |SW_OPTION_TRIP<br>SMEG+||
