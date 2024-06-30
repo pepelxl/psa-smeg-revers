@@ -2,16 +2,16 @@
 
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
-| AAS | AAS_Front_Present | BOOL ||
-| AAS | AAS_Rear_Present | BOOL ||
-| AAS | AVR_Brightness | INTEGER ||
-| AAS | AVR_Brightness_ADV | INTEGER ||
-| AAS | AVR_Chroma | INTEGER ||
-| AAS | AVR_Chroma_ADV | INTEGER ||
-| AAS | AVR_Contrast | INTEGER ||
-| AAS | AVR_Contrast_ADV | INTEGER ||
-| AAS | AVR_Hue_ADV | INTEGER ||
-| AAS | AVR_Picture_Template | INTEGER |Выбор шаблона линий разметки камеры заднего вида|
+| AAS | AAS_Front_Present | BOOL ||  
+| AAS | AAS_Rear_Present | BOOL ||  
+| AAS | AVR_Brightness | INTEGER |изобращение для входа под заднюю камеру|  
+| AAS | AVR_Chroma | INTEGER |изобращение для входа под заднюю камеру|  
+| AAS | AVR_Contrast | INTEGER |изобращение для входа под заднюю камеру|  
+| AAS | AVR_Brightness_ADV | INTEGER ||  
+| AAS | AVR_Chroma_ADV | INTEGER ||  
+| AAS | AVR_Contrast_ADV | INTEGER ||  
+| AAS | AVR_Hue_ADV | INTEGER ||  
+| AAS | AVR_Picture_Template | INTEGER |Выбор шаблона линий разметки камеры заднего вида|  
 
 # Управление климатом
 
@@ -71,7 +71,7 @@
 |Секция|Имя|Тип|Значения|
 |:---|:---|:---|---|
 | audio | Arkamys_parameters | BLOB |набор данных меняется в зависимости от кузова<br>но, видимо, не зависит от комплектации. Представляет собой потоковый архив, который распаковывается в текстовый файл. Содержит параметры для системы Arkamys|
-| audio | Audio_Config | INTEGER |закодирован тип звукового усилителя|
+| audio | Audio_Config | INTEGER |закодирован тип звукового усилителя(1,2,3 или всё остальное = 0)|
 | audio | Audio_export_conf | BOOL ||
 | audio | Fader | BOOL ||
 | audio | Front_beep_vol_preset_std | INTEGER ||
