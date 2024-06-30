@@ -4,9 +4,9 @@
 |:---|:---|:---|---|
 | AAS | AAS_Front_Present | BOOL ||  
 | AAS | AAS_Rear_Present | BOOL ||  
-| AAS | AVR_Brightness | INTEGER |изобращение для входа под заднюю камеру|  
-| AAS | AVR_Chroma | INTEGER |изобращение для входа под заднюю камеру|  
-| AAS | AVR_Contrast | INTEGER |изобращение для входа под заднюю камеру|  
+| AAS | AVR_Brightness | INTEGER |изображение для входа под заднюю камеру|  
+| AAS | AVR_Chroma | INTEGER |изображение для входа под заднюю камеру|  
+| AAS | AVR_Contrast | INTEGER |изображение для входа под заднюю камеру|  
 | AAS | AVR_Brightness_ADV | INTEGER ||  
 | AAS | AVR_Chroma_ADV | INTEGER ||  
 | AAS | AVR_Contrast_ADV | INTEGER ||  
