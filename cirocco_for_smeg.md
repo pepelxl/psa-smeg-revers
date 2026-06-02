@@ -30,3 +30,7 @@ hdmi_timings=800 0 20 20 212 480 0 13 2 30 0 0 0 60 0 33000000 6
 Y54 X223 Y427 X576  
 Y49 X109 Y432 X650  
 Y47 X230 Y431 X569
+
+![alt text](/image/navi_smeg.jpg)
+![alt text](/image/navi_cirocco.jpg)
+![alt text](/image/navi_rpi.jpg)
