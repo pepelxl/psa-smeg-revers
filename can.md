@@ -38,9 +38,9 @@ COMBINE(cirocco for smeg) =
 0x317, 
 0x31C,
 0x3A7, 
-[0x51F](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5DF](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x65F](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)  
+[0x51F](#keep-alive-frame), 
+[0x5DF](#init-frame), 
+[0x65F](#diag-frame)  
   
 BMF(bsi2010) =
 0x036,
@@ -73,16 +73,16 @@ BMF(bsi2010) =
 0x3E1, 
 0x3E7, 
 0x412, 
-[0x512](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5D2](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x652](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)  
+[0x512](#keep-alive-frame), 
+[0x5D2](#init-frame), 
+[0x652](#diag-frame)  
   
 AVM(360view) =
 [0x166](#id-0x166), 
 0x4B3 , 
-[0x533](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5F3](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x673](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)  
+[0x533](#keep-alive-frame), 
+[0x5F3](#init-frame), 
+[0x673](#diag-frame)  
 CDE(cd for smeg) = 
 0x0E2, 
 0x162, 
@@ -90,16 +90,16 @@ CDE(cd for smeg) =
 0x1A2, 
 0x1E2, 
 [0x2A2](#id-0x2a2), 
-[0x531](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5F1](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x671](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)  
+[0x531](#keep-alive-frame), 
+[0x5F1](#init-frame), 
+[0x671](#diag-frame)  
   
 MDS(BTA_2) =
 0x3A9, 
 0x3D6, 
-[0x53C](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5FC](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x67C](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82)  
+[0x53C](#keep-alive-frame), 
+[0x5FC](#init-frame), 
+[0x67C](#diag-frame)  
   
 ## Сигналы передаваемые по шине info
 ### ID 0x260
