@@ -23,9 +23,9 @@ TELEMAT(smeg) =
 [0x385](#id-0x385),
 [0x39B](#id-0x39b), 
 0x4A4, 
-[0x524](#keep-alive-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-1000%D0%BC%D1%81), 
-[0x5E4](#init-frame-%D0%B4%D0%BB%D0%B8%D0%BD%D0%BD%D0%B0-8-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82), 
-[0x664](#diag-frame-%D1%87%D0%B0%D1%81%D1%82%D0%BE%D1%82%D0%B0-%D0%BE%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D1%83%D0%B5%D1%82),
+[0x524](#keep-alive-frame), 
+[0x5E4](#init-frame), 
+[0x664](#diag-frame),
 0x7A4  
   
 COMBINE(cirocco for smeg) =
