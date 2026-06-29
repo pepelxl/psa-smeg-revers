@@ -1,5 +1,4 @@
-# Информация о шинах CAN
-Магнитола имеет две шины. Основная шина CAN INFO DIV 125kb/s fault tolerant. Вторая шина связывает исключительно smeg и дисплей.  
+# CAN INFO DIV 125kb/s fault tolerant
 
 ## Список известных ID  
 TELEMAT(smeg) = 
