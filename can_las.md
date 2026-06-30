@@ -76,8 +76,25 @@ ECR_G(левый ремень) =
 Пример: 0000060000600000  
 
 ### ID 0x305  
-**длина 6, частота 10 мс**  
+**Источник: датчик угла поворота руля, длина 6, частота 10 мс**  
 Пример: 022B0007F300  
+D0[7]-D1[0] положения руля. 0 - руль прямо.  
+D2 ускорение руля  
+D3[7] направление движения  
+D4 Контрольная сумма и инкремент  
+```
+byte checksumm_305(const byte* frame)
+{
+    static byte iter = 0;
+    byte cursumm = 0;
+    cursumm = frame[0] ^ frame[1] ^ frame[2] ^ frame[3];
+    cursumm = ((cursumm >> 4) ^ (cursumm & 0x0F)) ^ iter;
+    cursumm = (cursumm << 4) ^ iter;
+    iter = ++iter & 0x0F; 
+    return cursumm;
+}
+```
+D5 повторяет значения D2  
 
 ### ID 0x30D  
 **длина 8, частота 20 мс**  
