@@ -76,6 +76,20 @@ D1[5-4] состояние двс
 &nbsp; 3 - работает  
 D2 положение педали акселератора. 0xC7 = 100%. kick-down не учитывается.  
 D3 Контрольная сумма и инкремент  
+```
+byte checksum_228(const byte* frame)
+{
+    static byte iter = 0;
+    byte sum =
+        (frame[0] >> 4) + (frame[0] & 0x0F) +
+        (frame[1] >> 4) + (frame[1] & 0x0F) +
+        (frame[2] >> 4) + (frame[2] & 0x0F) +
+        iter;
+    byte result = (iter << 4) | ((3 - sum) & 0x0F);
+    iter = (iter + 1) & 0x0F;
+    return result;
+}
+```
 D4  
 
 ### ID 0x2B6  
