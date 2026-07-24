@@ -125,6 +125,10 @@ D4
 D0[7]-D1[0] положения руля. 0 - руль прямо.  
 D2 ускорение руля  
 D3[7] направление движения  
+D3[6-3] Code defaut capteur angle volant  
+D3[2] Регулировка датчика угла поворота рулевого колеса  
+D3[1] Capteur angle volant calibre  
+D3[0] Status interne capteur angle volant  
 D4 Контрольная сумма и инкремент  
 ```
 byte checksumm_305(const byte* frame)
