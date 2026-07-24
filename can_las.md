@@ -71,7 +71,8 @@ D4[7] ?regen_filtre. регенерация сажевого фильтра.
 D4[6] ?Autorisation_de_fonctionnement_du_diagnostique_reseau. Статус - эбу двс полностью функционален  
 &nbsp; 0 - при выключеном зажигании / при запуске двс.  
 &nbsp; 1 - на заведённую / режим СС.  
-d4[5] ?Demande de figeage des perturbations de couple  
+D4[5] ?Demande de figeage des perturbations de couple  
+D4[4] ?Info couples estimes incertaines  
 D4[3-2] относится к режимам ограничения/поддержания скорости  
 &nbsp; 0 - в работу не вмешивается  
 &nbsp; 1 - скорость втомобиля больше заданой. (превышение скорости нажатием на педаль газа)  
