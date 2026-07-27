@@ -114,6 +114,25 @@ BMF(BSI2010) =
 ### ID 0x349
 **Источник КПП, длина 8, частота 10 мс**  
 Пример: `521B0C2A00007400`  
+D6 контрольная сумма и счётчик  
+```
+byte checksum_349(const byte* frame)
+{
+    static byte iter = 0;
+    byte sum =
+        (frame[0] >> 4) + (frame[0] & 0x0F) +
+        (frame[1] >> 4) + (frame[1] & 0x0F) +
+        (frame[2] >> 4) + (frame[2] & 0x0F) +
+        (frame[3] >> 4) + (frame[3] & 0x0F) +
+        (frame[4] >> 4) + (frame[4] & 0x0F) +
+        (frame[5] >> 4) + (frame[5] & 0x0F) +
+        (frame[7] >> 4) + (frame[7] & 0x0F) +
+        iter;
+    byte result = (6 - sum) << 4) | iter;
+    iter = (iter + 1) & 0x0F;
+    return result;
+}
+```
 
 ### ID 0x34D
 **длина 8, частота 20 мс**  
