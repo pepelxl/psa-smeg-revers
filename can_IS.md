@@ -23,7 +23,7 @@ BMF(BSI2010) =
 [0x612](#ID-0x612), 
 [0x792](#ID-0x792)  
 
-КПП = 
+BOITEVIT(CFC300P) = 
 [0x109](#ID-0x109), 
 [0x329](#ID-0x329), 
 [0x349](#ID-0x349), 
@@ -32,7 +32,7 @@ BMF(BSI2010) =
 [0x775](#ID-0x775), 
 [0x789](#ID-0x789)  
 
-ДВС = 
+INJ(HDI_SID807_BR2) = 
 [0x072](#ID-0x072), 
 [0x108](#ID-0x108), 
 [0x1E8](#ID-0x1E8), 
@@ -46,11 +46,19 @@ BMF(BSI2010) =
 [0x608](#ID-0x608), 
 [0x788](#ID-0x788) 
 
-BSM_2010(gate las) = 
+BSM(BSM_2010 gate las) = 
 [0x2F6](#ID-0x2F6)(ARTIV), 
 [0x305](#ID-0x305)(датчик поворота угла руля), 
 [0x51F](#ID-0x51F), 
 [0x53F](#ID-0x53F)  
+
+ABRASR(ESP90) =  
+
+AAS(AAS_UDS) =  
+
+CORPRO(LADCT) =  
+
+DIRECTN(DAE_BVH2) =  
 
 ### ID 0x072
 **Источник ДВС, длина 5**  
