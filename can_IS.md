@@ -148,6 +148,16 @@ D3[7-4] ?Прогнозируемая передача
 &nbsp; 0x7 - 1  
 &nbsp; 0xC - 6  
 &nbsp; 0xE - 5  
+D3[3-0] ?Текущая передача  
+&nbsp; 0x1 - 1  
+&nbsp; 0x2 - 2  
+&nbsp; 0x3 - 3  
+&nbsp; 0x4 - 4  
+&nbsp; 0x5 - 5  
+&nbsp; 0x6 - 6  
+&nbsp; 0x9 - R  
+&nbsp; 0xA - N  
+
 D6 контрольная сумма и счётчик  
 ```
 byte checksum_349(const byte* frame)
