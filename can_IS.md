@@ -79,6 +79,7 @@ DIRECTN(DAE_BVH2) =
 
 CORPRO(LADCT) = 
 [0x117](#ID-0x117), 
+[0x517](#ID-0x517), 
 [0x797](#ID-0x797)  
 
 ### ID 0x072
