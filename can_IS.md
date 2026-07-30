@@ -51,6 +51,7 @@ INJ(HDI_SID807_BR2) =
 
 BSM(BSM_2010 gate las) = 
 [0x2F6](#ID-0x2F6)(ARTIV), 
+[0x4F6](#ID-0x4F6)(ARTIV), 
 [0x305](#ID-0x305)(датчик поворота угла руля), 
 [0x51F](#ID-0x51F), 
 [0x53F](#ID-0x53F)  
