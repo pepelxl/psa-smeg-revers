@@ -75,6 +75,7 @@ AAS(AAS_UDS) =
 
 DIRECTN(DAE_BVH2) = 
 [0x115](#ID-0x115), 
+[0x495](#ID-0x495), 
 [0x795](#ID-0x795)  
 
 CORPRO(LADCT) = 
