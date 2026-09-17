@@ -173,6 +173,24 @@ D2[1-0] педаль тормоза
 &nbsp; 1 - педаль отпущена  
 &nbsp; 2 - падаль нажата  
 D4[7]-D5[4] Поперечное ускорениею. 0x800 и больше - на право(руль в лево). 0x7fff и меньше - на лево(руль в право).  
+```
+byte checksum_32D(const byte* frame)
+{
+    static byte iter = 0;
+    byte sum =
+        (frame[0] >> 4) + (frame[0] & 0x0F) +
+        (frame[1] >> 4) + (frame[1] & 0x0F) +
+        (frame[2] >> 4) + (frame[2] & 0x0F) +
+        (frame[3] >> 4) + (frame[3] & 0x0F) +
+        (frame[4] >> 4) + (frame[4] & 0x0F) +
+        (frame[5] >> 4) + (frame[5] & 0x0F) +
+        (frame[6] >> 4) + (frame[6] & 0x0F) +
+        iter;
+    byte result = (iter << 4) | ((0xD - sum) & 0x0F);
+    iter = (iter + 1) & 0x0F;
+    return result;
+}
+```
 
 ### ID 0x348  
 **Источник ДВС через BSM_2010, длина 8, частота 20 мс**  
